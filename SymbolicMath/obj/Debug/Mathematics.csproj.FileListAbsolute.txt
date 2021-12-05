@@ -1,0 +1,17 @@
+G:\FVC\KR\KRLab12\Mathematics\obj\Debug\Mathematics.csprojAssemblyReference.cache
+G:\FVC\KR\KRLab12\Mathematics\obj\Debug\Mathematics.csproj.CoreCompileInputs.cache
+G:\FVC\KR\KRLab12\Mathematics\bin\Debug\Mathematics.dll
+G:\FVC\KR\KRLab12\Mathematics\bin\Debug\Mathematics.pdb
+G:\FVC\KR\KRLab12\Mathematics\bin\Debug\System.Buffers.dll
+G:\FVC\KR\KRLab12\Mathematics\bin\Debug\System.Collections.Immutable.dll
+G:\FVC\KR\KRLab12\Mathematics\bin\Debug\System.Memory.dll
+G:\FVC\KR\KRLab12\Mathematics\bin\Debug\System.Numerics.Vectors.dll
+G:\FVC\KR\KRLab12\Mathematics\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+G:\FVC\KR\KRLab12\Mathematics\bin\Debug\System.Buffers.xml
+G:\FVC\KR\KRLab12\Mathematics\bin\Debug\System.Collections.Immutable.xml
+G:\FVC\KR\KRLab12\Mathematics\bin\Debug\System.Memory.xml
+G:\FVC\KR\KRLab12\Mathematics\bin\Debug\System.Numerics.Vectors.xml
+G:\FVC\KR\KRLab12\Mathematics\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+G:\FVC\KR\KRLab12\Mathematics\obj\Debug\Mathematics.csproj.CopyComplete
+G:\FVC\KR\KRLab12\Mathematics\obj\Debug\Mathematics.dll
+G:\FVC\KR\KRLab12\Mathematics\obj\Debug\Mathematics.pdb

@@ -1,0 +1,2115 @@
+<Project>
+  <Type>untsn</Type>
+  <Name>九年级物理.单位</Name>
+  <ProjectItem type="KRLab.DiagramEditor.NetworkDiagram.Diagram" assembly="KRLab.DiagramEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Name>热值</Name>
+    <KnowledgeNet>SemanticNet</KnowledgeNet>
+    <Entities>
+      <Entity type="SemanticNode">
+        <Name>单位</Name>
+        <Location left="443" top="224" />
+        <Size width="60" height="53" />
+        <Collapsed>True</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>国际制</Name>
+        <Location left="162" top="123" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>符号表示</Name>
+        <Location left="671" top="284" />
+        <Size width="75" height="63" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>热值</Name>
+        <Location left="580" top="123" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>焦耳每千克</Name>
+        <Location left="421" top="414" />
+        <Size width="99" height="52" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>/</Name>
+        <Location left="789" top="121" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>热量</Name>
+        <Location left="862" top="10" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>质量</Name>
+        <Location left="901" top="199" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>焦耳</Name>
+        <Location left="386" top="540" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>千克</Name>
+        <Location left="508" top="539" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>J/Kg</Name>
+        <Location left="629" top="427" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="SN_REL" first="2" second="10">
+        <Label>VAL</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>VAL</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="1" second="4">
+        <Label>VAL</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>370</X>
+          <Y>432</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>VAL</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="0" second="4">
+        <Label>VAL</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>VAL</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="0" second="2">
+        <Label>的</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>545</X>
+          <Y>276</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>596</X>
+          <Y>326</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ATT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="0" second="1">
+        <Label>ATT</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ATT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="3" second="0">
+        <Label>ATT</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>536</X>
+          <Y>159</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>477</X>
+          <Y>185</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ATT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="10" second="4">
+        <Label>ASSOC</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ASSOC</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="5" second="3">
+        <Label>=</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>RESULT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="5" second="6">
+        <Label>ACTR</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ACTR</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="5" second="7">
+        <Label>ACTED</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ACTED</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="4" second="8">
+        <Label>ASSOC</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>439</X>
+          <Y>493</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ASSOC</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="4" second="9">
+        <Label>ASSOC</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>463</X>
+          <Y>496</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ASSOC</SNRelationshipType>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+  <ProjectItem type="KRLab.DiagramEditor.NetworkDiagram.Diagram" assembly="KRLab.DiagramEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Name>比热容</Name>
+    <KnowledgeNet>SemanticNet</KnowledgeNet>
+    <Entities>
+      <Entity type="SemanticNode">
+        <Name>开尔文</Name>
+        <Location left="630" top="573" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>千克</Name>
+        <Location left="528" top="539" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>焦耳</Name>
+        <Location left="406" top="540" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>温度</Name>
+        <Location left="1008" top="280" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>质量</Name>
+        <Location left="1006" top="124" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>*</Name>
+        <Location left="921" top="199" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>热量</Name>
+        <Location left="882" top="10" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>/</Name>
+        <Location left="809" top="121" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>符号表示</Name>
+        <Location left="691" top="284" />
+        <Size width="75" height="63" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>国际制</Name>
+        <Location left="182" top="123" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>单位</Name>
+        <Location left="463" top="224" />
+        <Size width="60" height="53" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>比热容</Name>
+        <Location left="600" top="123" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>J/(Kg.K)</Name>
+        <Location left="649" top="427" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>焦耳每千克开尔文</Name>
+        <Location left="441" top="414" />
+        <Size width="99" height="52" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="SN_REL" first="8" second="12">
+        <Label>VAL</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>VAL</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="9" second="13">
+        <Label>VAL</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>393</X>
+          <Y>439</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>VAL</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="10" second="13">
+        <Label>VAL</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>VAL</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="13" second="0">
+        <Label>ASSOC</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>565</X>
+          <Y>485</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ASSOC</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="13" second="1">
+        <Label>ASSOC</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>483</X>
+          <Y>496</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ASSOC</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="13" second="2">
+        <Label>ASSOC</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>459</X>
+          <Y>493</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ASSOC</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="5" second="3">
+        <Label>ACTR</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ACTR</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="5" second="4">
+        <Label>ACTR</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ACTR</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="7" second="5">
+        <Label>ACTED</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ACTED</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="7" second="6">
+        <Label>ACTR</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ACTR</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="7" second="11">
+        <Label>=</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>RESULT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="12" second="13">
+        <Label>ASSOC</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ASSOC</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="11" second="10">
+        <Label>ATT</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>556</X>
+          <Y>159</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>497</X>
+          <Y>185</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ATT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="10" second="9">
+        <Label>ATT</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ATT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="10" second="8">
+        <Label>的</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>565</X>
+          <Y>276</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>616</X>
+          <Y>326</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ATT</SNRelationshipType>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+  <ProjectItem type="KRLab.DiagramEditor.NetworkDiagram.Diagram" assembly="KRLab.DiagramEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Name>电荷</Name>
+    <KnowledgeNet>SemanticNet</KnowledgeNet>
+    <Entities>
+      <Entity type="SemanticNode">
+        <Name>秒</Name>
+        <Location left="549" top="603" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>安培</Name>
+        <Location left="427" top="604" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>电流</Name>
+        <Location left="903" top="74" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>*</Name>
+        <Location left="830" top="185" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>符号表示</Name>
+        <Location left="712" top="348" />
+        <Size width="75" height="63" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>国际制</Name>
+        <Location left="203" top="187" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>单位</Name>
+        <Location left="484" top="288" />
+        <Size width="60" height="53" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>电荷</Name>
+        <Location left="621" top="187" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>时间</Name>
+        <Location left="942" top="263" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>库仑</Name>
+        <Location left="462" top="478" />
+        <Size width="99" height="52" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>C</Name>
+        <Location left="670" top="491" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="SN_REL" first="4" second="10">
+        <Label>VAL</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>VAL</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="5" second="9">
+        <Label>VAL</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>429</X>
+          <Y>499</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>VAL</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="6" second="9">
+        <Label>VAL</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>VAL</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="9" second="0">
+        <Label>ASSOC</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>504</X>
+          <Y>560</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ASSOC</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="9" second="1">
+        <Label>ASSOC</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>480</X>
+          <Y>557</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ASSOC</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="3" second="8">
+        <Label>ACTR</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ACTR</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="3" second="2">
+        <Label>ACTR</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ACTR</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="3" second="7">
+        <Label>=</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>RESULT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="10" second="9">
+        <Label>ASSOC</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ASSOC</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="7" second="6">
+        <Label>ATT</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>577</X>
+          <Y>223</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>518</X>
+          <Y>249</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ATT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="6" second="5">
+        <Label>ATT</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ATT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="6" second="4">
+        <Label>的</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>586</X>
+          <Y>340</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>637</X>
+          <Y>390</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ATT</SNRelationshipType>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+  <ProjectItem type="KRLab.DiagramEditor.NetworkDiagram.Diagram" assembly="KRLab.DiagramEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Name>电流</Name>
+    <KnowledgeNet>SemanticNet</KnowledgeNet>
+    <Entities>
+      <Entity type="SemanticNode">
+        <Name>单位</Name>
+        <Location left="454" top="238" />
+        <Size width="60" height="53" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>国际制</Name>
+        <Location left="173" top="137" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>符号表示</Name>
+        <Location left="682" top="298" />
+        <Size width="75" height="63" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>电流</Name>
+        <Location left="591" top="137" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>A</Name>
+        <Location left="640" top="441" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>安培</Name>
+        <Location left="432" top="428" />
+        <Size width="99" height="52" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="SN_REL" first="1" second="5">
+        <Label>VAL</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>387</X>
+          <Y>453</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>VAL</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="2" second="4">
+        <Label>VAL</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>VAL</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="0" second="5">
+        <Label>VAL</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>VAL</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="0" second="2">
+        <Label>的</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>556</X>
+          <Y>290</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>607</X>
+          <Y>340</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ATT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="0" second="1">
+        <Label>ATT</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ATT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="3" second="0">
+        <Label>ATT</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>547</X>
+          <Y>173</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>488</X>
+          <Y>199</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ATT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="4" second="5">
+        <Label>ASSOC</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ASSOC</SNRelationshipType>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+  <ProjectItem type="KRLab.DiagramEditor.NetworkDiagram.Diagram" assembly="KRLab.DiagramEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Name>电压</Name>
+    <KnowledgeNet>SemanticNet</KnowledgeNet>
+    <Entities>
+      <Entity type="SemanticNode">
+        <Name>电阻</Name>
+        <Location left="519" top="818" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>电流</Name>
+        <Location left="406" top="803" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>电阻</Name>
+        <Location left="688" top="50" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>电流</Name>
+        <Location left="446" top="55" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>*</Name>
+        <Location left="574" top="134" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>焦耳</Name>
+        <Location left="325" top="700" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>库仑</Name>
+        <Location left="646" top="720" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>电荷</Name>
+        <Location left="895" top="400" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>功</Name>
+        <Location left="888" top="197" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>/</Name>
+        <Location left="774" top="293" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>符号表示</Name>
+        <Location left="674" top="444" />
+        <Size width="75" height="63" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>国际制</Name>
+        <Location left="165" top="283" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>单位</Name>
+        <Location left="446" top="384" />
+        <Size width="60" height="53" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>电压</Name>
+        <Location left="583" top="283" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>V</Name>
+        <Location left="632" top="587" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>伏特</Name>
+        <Location left="424" top="574" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="SN_REL" first="11" second="15">
+        <Label>VAL</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>388</X>
+          <Y>594</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>VAL</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="12" second="15">
+        <Label>VAL</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>VAL</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="10" second="14">
+        <Label>VAL</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>VAL</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="15" second="0">
+        <Label>ASSOC</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ASSOC</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="15" second="1">
+        <Label>ASSOC</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ASSOC</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="4" second="2">
+        <Label>ACTR</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ACTR</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="4" second="3">
+        <Label>ACTR</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ACTR</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="4" second="13">
+        <Label>=</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>RESULT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="15" second="5">
+        <Label>ASSOC</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>425</X>
+          <Y>649</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ASSOC</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="15" second="6">
+        <Label>ASSOC</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>467</X>
+          <Y>651</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ASSOC</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="9" second="7">
+        <Label>ACTED</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ACTED</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="9" second="8">
+        <Label>ACTR</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ACTR</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="9" second="13">
+        <Label>=</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>RESULT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="14" second="15">
+        <Label>ASSOC</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ASSOC</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="13" second="12">
+        <Label>ATT</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>539</X>
+          <Y>319</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>480</X>
+          <Y>345</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ATT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="12" second="11">
+        <Label>ATT</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ATT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="12" second="10">
+        <Label>的</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>548</X>
+          <Y>436</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>599</X>
+          <Y>486</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ATT</SNRelationshipType>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+  <ProjectItem type="KRLab.DiagramEditor.NetworkDiagram.Diagram" assembly="KRLab.DiagramEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Name>电阻</Name>
+    <KnowledgeNet>SemanticNet</KnowledgeNet>
+    <Entities>
+      <Entity type="SemanticNode">
+        <Name>安培</Name>
+        <Location left="379" top="503" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>伏特</Name>
+        <Location left="324" top="283" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>兆欧</Name>
+        <Location left="400" top="639" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>MΩ</Name>
+        <Location left="841" top="561" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>kΩ</Name>
+        <Location left="751" top="474" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>千欧</Name>
+        <Location left="549" top="511" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>电流</Name>
+        <Location left="885" top="159" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>电压</Name>
+        <Location left="876" top="10" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>/</Name>
+        <Location left="771" top="88" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>欧姆</Name>
+        <Location left="449" top="379" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>Ω</Name>
+        <Location left="657" top="392" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>电阻</Name>
+        <Location left="608" top="88" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>单位</Name>
+        <Location left="471" top="189" />
+        <Size width="60" height="53" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>国际制</Name>
+        <Location left="189" top="189" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>符号表示</Name>
+        <Location left="699" top="249" />
+        <Size width="75" height="63" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="SN_REL" first="12" second="9">
+        <Label>VAL</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>VAL</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="13" second="0">
+        <Label>VAL</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>341</X>
+          <Y>529</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>VAL</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="14" second="4">
+        <Label>VAL</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>VAL</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="14" second="10">
+        <Label>VAL</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>727</X>
+          <Y>337</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>VAL</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="9" second="0">
+        <Label>ASSOC</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>409</X>
+          <Y>425</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ASSOC</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="9" second="1">
+        <Label>ASSOC</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>424</X>
+          <Y>391</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ASSOC</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="2" second="5">
+        <Label>=</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>COMP</SNRelationshipType>
+        <StartMultiplicity>1</StartMultiplicity>
+        <EndMultiplicity>1000</EndMultiplicity>
+      </Relationship>
+      <Relationship type="SN_REL" first="5" second="9">
+        <Label>=</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>COMP</SNRelationshipType>
+        <StartMultiplicity>1</StartMultiplicity>
+        <EndMultiplicity>1000</EndMultiplicity>
+      </Relationship>
+      <Relationship type="SN_REL" first="3" second="2">
+        <Label>ASSOC</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ASSOC</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="4" second="5">
+        <Label>ASSOC</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ASSOC</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="3" second="14">
+        <Label>ASSOC</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>837</X>
+          <Y>282</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ASSOC</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="8" second="6">
+        <Label>ACTED</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>846</X>
+          <Y>136</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ACTED</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="8" second="7">
+        <Label>ACTR</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ACTR</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="8" second="11">
+        <Label>=</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>RESULT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="12" second="14">
+        <Label>的</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>573</X>
+          <Y>241</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>624</X>
+          <Y>291</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ATT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="12" second="13">
+        <Label>ATT</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ATT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="11" second="12">
+        <Label>ATT</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>564</X>
+          <Y>124</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>505</X>
+          <Y>150</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ATT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="10" second="9">
+        <Label>ASSOC</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ASSOC</SNRelationshipType>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+  <ProjectItem type="KRLab.DiagramEditor.NetworkDiagram.Diagram" assembly="KRLab.DiagramEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Name>电能</Name>
+    <KnowledgeNet>SemanticNet</KnowledgeNet>
+    <Entities>
+      <Entity type="SemanticNode">
+        <Name>千瓦时</Name>
+        <Location left="255" top="637" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>瓦</Name>
+        <Location left="714" top="877" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>秒</Name>
+        <Location left="637" top="902" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>安培</Name>
+        <Location left="504" top="902" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>电流</Name>
+        <Location left="619" top="38" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>*</Name>
+        <Location left="619" top="139" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>电压</Name>
+        <Location left="467" top="38" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>时间</Name>
+        <Location left="476" top="187" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>符号表示</Name>
+        <Location left="754" top="378" />
+        <Size width="75" height="63" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>单位</Name>
+        <Location left="526" top="318" />
+        <Size width="60" height="53" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>电能</Name>
+        <Location left="663" top="217" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>J</Name>
+        <Location left="805" top="508" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>焦耳</Name>
+        <Location left="504" top="508" />
+        <Size width="82" height="98" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>*</Name>
+        <Location left="826" top="217" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>时间</Name>
+        <Location left="940" top="288" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>电功率</Name>
+        <Location left="931" top="139" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>伏特</Name>
+        <Location left="379" top="412" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>国际制</Name>
+        <Location left="244" top="318" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="SN_REL" first="8" second="11">
+        <Label>VAL</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>VAL</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="17" second="12">
+        <Label>VAL</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>469</X>
+          <Y>535</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>VAL</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="9" second="12">
+        <Label>VAL</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>VAL</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="0" second="12">
+        <Label>=</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>COMP</SNRelationshipType>
+        <StartMultiplicity>1</StartMultiplicity>
+        <EndMultiplicity>3.6*10^6</EndMultiplicity>
+      </Relationship>
+      <Relationship type="SN_REL" first="12" second="1">
+        <Label>ASSOC</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>664</X>
+          <Y>557</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ASSOC</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="12" second="2">
+        <Label>ASSOC</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>672</X>
+          <Y>584</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ASSOC</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="12" second="3">
+        <Label>ASSOC</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ASSOC</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="5" second="10">
+        <Label>=</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>698</X>
+          <Y>157</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>698</X>
+          <Y>192</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>RESULT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="5" second="4">
+        <Label>ACTR</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ACTR</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="5" second="7">
+        <Label>ACTR</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>594</X>
+          <Y>179</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ACTR</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="5" second="6">
+        <Label>ACTR</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ACTR</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="11" second="12">
+        <Label>ASSOC</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ASSOC</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="10" second="9">
+        <Label>ATT</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>619</X>
+          <Y>253</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>560</X>
+          <Y>279</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ATT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="9" second="17">
+        <Label>ATT</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ATT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="9" second="8">
+        <Label>的</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>628</X>
+          <Y>370</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>679</X>
+          <Y>420</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ATT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="13" second="10">
+        <Label>=</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>RESULT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="13" second="15">
+        <Label>ACTR</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ACTR</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="13" second="14">
+        <Label>ACTR</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>901</X>
+          <Y>265</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ACTR</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="12" second="16">
+        <Label>ASSOC</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>479</X>
+          <Y>520</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ASSOC</SNRelationshipType>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+  <ProjectItem type="KRLab.DiagramEditor.NetworkDiagram.Diagram" assembly="KRLab.DiagramEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Name>电功率</Name>
+    <KnowledgeNet>SemanticNet</KnowledgeNet>
+    <Entities>
+      <Entity type="SemanticNode">
+        <Name>安培</Name>
+        <Location left="349" top="787" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>伏特</Name>
+        <Location left="303" top="678" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>电流</Name>
+        <Location left="642" top="54" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>电压</Name>
+        <Location left="409" top="43" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>*</Name>
+        <Location left="533" top="140" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>电功率</Name>
+        <Location left="543" top="269" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>秒</Name>
+        <Location left="604" top="737" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>焦耳</Name>
+        <Location left="488" top="793" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>时间</Name>
+        <Location left="817" top="360" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>电功</Name>
+        <Location left="810" top="239" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>/</Name>
+        <Location left="692" top="316" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>国际制</Name>
+        <Location left="251" top="386" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>符号表示</Name>
+        <Location left="761" top="446" />
+        <Size width="75" height="63" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>单位</Name>
+        <Location left="533" top="386" />
+        <Size width="60" height="53" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>瓦</Name>
+        <Location left="511" top="576" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>W</Name>
+        <Location left="812" top="576" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="SN_REL" first="12" second="15">
+        <Label>VAL</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>VAL</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="11" second="14">
+        <Label>VAL</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>VAL</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="13" second="14">
+        <Label>VAL</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>VAL</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="14" second="0">
+        <Label>ASSOC</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>517</X>
+          <Y>651</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ASSOC</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="14" second="1">
+        <Label>ASSOC</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>453</X>
+          <Y>616</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ASSOC</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="4" second="5">
+        <Label>=</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>RESULT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="4" second="2">
+        <Label>ACTR</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ACTR</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="4" second="3">
+        <Label>ACTR</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ACTR</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="10" second="5">
+        <Label>=</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>RESULT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="5" second="13">
+        <Label>ATT</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ATT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="14" second="6">
+        <Label>ASSOC</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>586</X>
+          <Y>625</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ASSOC</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="14" second="7">
+        <Label>ASSOC</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>531</X>
+          <Y>745</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ASSOC</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="10" second="8">
+        <Label>ACTED</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ACTED</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="10" second="9">
+        <Label>ACTR</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>718</X>
+          <Y>264</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ACTR</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="13" second="12">
+        <Label>的</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>635</X>
+          <Y>438</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>686</X>
+          <Y>488</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ATT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="13" second="11">
+        <Label>ATT</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ATT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="15" second="14">
+        <Label>ASSOC</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ASSOC</SNRelationshipType>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+  <ProjectItem type="KRLab.DiagramEditor.NetworkDiagram.Diagram" assembly="KRLab.DiagramEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Name>电功</Name>
+    <KnowledgeNet>SemanticNet</KnowledgeNet>
+    <Entities>
+      <Entity type="SemanticNode">
+        <Name>库仑</Name>
+        <Location left="759" top="748" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>电荷</Name>
+        <Location left="230" top="259" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>*</Name>
+        <Location left="356" top="259" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>电压</Name>
+        <Location left="223" top="138" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>时间</Name>
+        <Location left="726" top="149" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>单位</Name>
+        <Location left="553" top="406" />
+        <Size width="60" height="53" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>符号表示</Name>
+        <Location left="781" top="466" />
+        <Size width="75" height="63" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>国际制</Name>
+        <Location left="271" top="406" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>J</Name>
+        <Location left="832" top="596" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>*</Name>
+        <Location left="712" top="336" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>电功率</Name>
+        <Location left="830" top="259" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>时间</Name>
+        <Location left="837" top="380" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>秒</Name>
+        <Location left="624" top="757" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>焦耳</Name>
+        <Location left="531" top="596" />
+        <Size width="82" height="69" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>电功</Name>
+        <Location left="563" top="289" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>*</Name>
+        <Location left="553" top="160" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>电压</Name>
+        <Location left="429" top="63" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>电流</Name>
+        <Location left="654" top="63" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>瓦</Name>
+        <Location left="508" top="813" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>伏特</Name>
+        <Location left="323" top="698" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>安培</Name>
+        <Location left="369" top="807" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="SN_REL" first="6" second="8">
+        <Label>VAL</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>VAL</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="5" second="13">
+        <Label>VAL</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>VAL</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="7" second="13">
+        <Label>VAL</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>VAL</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="13" second="0">
+        <Label>ASSOC</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>686</X>
+          <Y>651</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ASSOC</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="2" second="14">
+        <Label>=</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>RESULT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="2" second="1">
+        <Label>ACTR</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ACTR</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="2" second="3">
+        <Label>ACTR</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>382</X>
+          <Y>207</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ACTR</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="15" second="4">
+        <Label>ACTR</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>628</X>
+          <Y>198</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ACTR</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="8" second="13">
+        <Label>ASSOC</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ASSOC</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="5" second="7">
+        <Label>ATT</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ATT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="5" second="6">
+        <Label>的</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>655</X>
+          <Y>458</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>706</X>
+          <Y>508</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ATT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="9" second="10">
+        <Label>ACTR</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>738</X>
+          <Y>284</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ACTR</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="9" second="11">
+        <Label>ACTR</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ACTR</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="13" second="12">
+        <Label>ASSOC</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>585</X>
+          <Y>707</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ASSOC</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="14" second="5">
+        <Label>ATT</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ATT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="9" second="14">
+        <Label>=</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>RESULT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="15" second="16">
+        <Label>ACTR</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ACTR</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="15" second="17">
+        <Label>ACTR</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ACTR</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="15" second="14">
+        <Label>=</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>RESULT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="13" second="18">
+        <Label>ASSOC</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>551</X>
+          <Y>765</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ASSOC</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="13" second="19">
+        <Label>ASSOC</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>473</X>
+          <Y>636</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ASSOC</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="13" second="20">
+        <Label>ASSOC</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>537</X>
+          <Y>690</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ASSOC</SNRelationshipType>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+</Project>

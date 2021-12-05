@@ -1,0 +1,48 @@
+﻿<Window x:Class="FVCClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controls="clr-namespace:WpfMath.Controls;assembly=WpfMath"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FVCTutor"
+        xmlns:term="clr-namespace:FVCClient"
+        mc:Ignorable="d" Background="DarkOliveGreen"
+        Title="智学课堂" Height="800" Width="1000"
+        Loaded="Window_Loaded" WindowStyle="ThreeDBorderWindow" 
+        >
+    <Window.Effect>
+        <DropShadowEffect BlurRadius="50" Color="Black" Direction="90" ShadowDepth="10"/>
+    </Window.Effect>
+
+    <Grid>
+        <RichTextBox Name="QuestionTextBox" FontSize="20" Height="280" Margin="10,14,10,0"                      
+				VerticalScrollBarVisibility="Visible" VerticalAlignment="Top" Background="Beige" IsReadOnly="True"
+        />
+        <term:InputTextBox Grid.Row="0" x:Name="AnswerInputBox" FontFamily="Courier New" FontSize="18"
+				IsPromptInsertedAtLaunch="False" IsSystemBeepEnabled="True"
+                Margin="10,302,10,10" AcceptsReturn="True"
+				VerticalScrollBarVisibility="Visible"  Background="Cornsilk"           
+        />
+
+        <!--<Label Content="问题"  Foreground="Beige" FontSize="14" HorizontalAlignment="Left" Margin="10,14,0,0" 
+               VerticalAlignment="Top" Width="80"
+               />
+        <Label Content="回答"  Foreground="Beige" FontSize="14" HorizontalAlignment="Left" Margin="7,300,0,0" 
+               VerticalAlignment="Top" Width="80"
+               />-->
+        <!--<Button Content="选择课程" Foreground="Beige" Name="ChooseButton" HorizontalAlignment="Left" Margin="7,440,0,0"
+                Background="DarkOrchid" VerticalAlignment="Top" Width="85" Height="25" Click="ChooseButtonClick"
+                />
+        <Button Content="提出问题"  Foreground="Beige" Name="StartButton" HorizontalAlignment="Left" Margin="7,480,0,0" 
+                VerticalAlignment="Top" Width="85" Height="25" Click="OnStartButtonClick" Background="DarkOrchid"
+                />
+        <Button Content="提交回答"  Foreground="Beige" Name="SubmitButton"  HorizontalAlignment="Left" Margin="7,520,0,0" 
+                VerticalAlignment="Top" Width="85" Height="25" Click="SubmitButtonClick" Background="DarkOrchid"
+                />
+        <Button Content="输入公式"  Foreground="Beige" Name="FormulaInputButton" HorizontalAlignment="Left"
+                Background="DarkOrchid" Margin="7,560,0,120" VerticalAlignment="Top" Width="85" Height="25"
+                Click="FormulaInputClick"
+                />-->
+    </Grid>
+
+</Window>

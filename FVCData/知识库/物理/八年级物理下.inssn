@@ -1,0 +1,988 @@
+<Project>
+  <Type>inssn</Type>
+  <Name>八年级物理下.器材</Name>
+  <ProjectItem type="KRLab.DiagramEditor.NetworkDiagram.Diagram" assembly="KRLab.DiagramEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Name>弹簧测力计</Name>
+    <KnowledgeNet>SemanticNet</KnowledgeNet>
+    <Entities>
+      <Entity type="SemanticNode">
+        <Name>检查弹簧测力计的量程是否在零刻度上，如果不在应该把指针调到零刻度线上</Name>
+        <Location left="849" top="153" />
+        <Size width="349" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>使用弹簧测力计的时候，首先要看清它的量程，认清每个小格是多少N</Name>
+        <Location left="784" top="57" />
+        <Size width="393" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>弹簧测力计</Name>
+        <Location left="227" top="40" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>图-弹簧测力计</Name>
+        <Location left="624" top="215" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>作为测量力的大小的工具</Name>
+        <Location left="497" top="366" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>器材</Name>
+        <Location left="497" top="215" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>使用弹簧测力计的时候，首先要看清它的量程，认清每个小格是多少N；检查弹簧测力计的量程是否在零刻度上，如果不在应该把指针调到零刻度线上</Name>
+        <Location left="562" top="40" />
+        <Size width="134" height="117" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>测量力的大小</Name>
+        <Location left="368" top="272" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="SN_REL" first="6" second="0">
+        <Label>GRANU</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>722</X>
+          <Y>84</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>GRANU</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="6" second="1">
+        <Label>GRANU</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>GRANU</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="5" second="7">
+        <Label>CIRCU</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>472</X>
+          <Y>260</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>CIRCU</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="2" second="5">
+        <Label>KTYPE</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>442</X>
+          <Y>206</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>KTYPE</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="5" second="3">
+        <Label>IMAGE</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>IMAGE</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="5" second="6">
+        <Label>CONTXT</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>570</X>
+          <Y>182</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>CONTXT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="5" second="4">
+        <Label>ROLE</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>506</X>
+          <Y>292</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ROLE</SNRelationshipType>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+  <ProjectItem type="KRLab.DiagramEditor.NetworkDiagram.Diagram" assembly="KRLab.DiagramEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Name>连通器</Name>
+    <KnowledgeNet>SemanticNet</KnowledgeNet>
+    <Entities>
+      <Entity type="SemanticNode">
+        <Name>水力发电</Name>
+        <Location left="384" top="297" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>上端开口下端连通；检查弹簧测力计的量程是否在零刻度上，如果不在应该把指针调到零刻度线上</Name>
+        <Location left="582" top="65" />
+        <Size width="108" height="105" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>器材</Name>
+        <Location left="513" top="240" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>造船闸</Name>
+        <Location left="513" top="391" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>图-连通器</Name>
+        <Location left="640" top="240" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>连通器</Name>
+        <Location left="243" top="65" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>上端开口下端连通</Name>
+        <Location left="781" top="39" />
+        <Size width="393" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>检查弹簧测力计的量程是否在零刻度上，如果不在应该把指针调到零刻度线上</Name>
+        <Location left="793" top="134" />
+        <Size width="349" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="SN_REL" first="1" second="7">
+        <Label>GRANU</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>716</X>
+          <Y>98</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>GRANU</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="1" second="6">
+        <Label>GRANU</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>GRANU</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="2" second="3">
+        <Label>ROLE</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>522</X>
+          <Y>317</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ROLE</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="2" second="1">
+        <Label>CONTXT</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>590</X>
+          <Y>195</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>CONTXT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="2" second="4">
+        <Label>IMAGE</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>IMAGE</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="5" second="2">
+        <Label>KTYPE</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>458</X>
+          <Y>231</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>KTYPE</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="2" second="0">
+        <Label>CIRCU</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>488</X>
+          <Y>285</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>CIRCU</SNRelationshipType>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+  <ProjectItem type="KRLab.DiagramEditor.NetworkDiagram.Diagram" assembly="KRLab.DiagramEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Name>气压计</Name>
+    <KnowledgeNet>SemanticNet</KnowledgeNet>
+    <Entities>
+      <Entity type="SemanticNode">
+        <Name>灭火器</Name>
+        <Location left="186" top="343" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>氧气瓶</Name>
+        <Location left="186" top="262" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>测量气体气压</Name>
+        <Location left="615" top="532" />
+        <Size width="199" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>金属盒气压计，它的主要部分是一个波纹状真空金属盒，气压变化时，金属盒的厚度会发生变化，传动装置把这种变化转变为指针的偏转，指示出气压的大小</Name>
+        <Location left="829" top="146" />
+        <Size width="349" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>图-气压计</Name>
+        <Location left="688" top="210" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>测量大气压、测量气体气压</Name>
+        <Location left="561" top="362" />
+        <Size width="123" height="56" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>器材</Name>
+        <Location left="561" top="210" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>水银气压计，在玻璃管旁立一个刻度尺，读出刻度尺的示数就可求出当前大气压强；金属盒气压计，它的主要部分是一个波纹状真空金属盒，气压变化时，金属盒的厚度会发生变化，传动装置把这种变化转变为指针的偏转，指示出气压的大小</Name>
+        <Location left="561" top="10" />
+        <Size width="136" height="151" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>氧气瓶、灭火器、气压测量</Name>
+        <Location left="404" top="243" />
+        <Size width="86" height="109" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>气压计</Name>
+        <Location left="291" top="35" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>气压测量</Name>
+        <Location left="291" top="456" />
+        <Size width="77" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>测量大气压</Name>
+        <Location left="291" top="532" />
+        <Size width="278" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>水银气压计，在玻璃管旁立一个刻度尺，读出刻度尺的示数就可求出当前大气压强</Name>
+        <Location left="803" top="65" />
+        <Size width="393" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="SN_REL" first="8" second="1">
+        <Label>GRANU</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>GRANU</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="8" second="0">
+        <Label>GRANU</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>GRANU</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="8" second="10">
+        <Label>GRANU</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>GRANU</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="5" second="11">
+        <Label>GRANU</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>GRANU</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="5" second="2">
+        <Label>GRANU</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>GRANU</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="7" second="3">
+        <Label>GRANU</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>722</X>
+          <Y>44</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>GRANU</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="7" second="12">
+        <Label>GRANU</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>GRANU</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="6" second="8">
+        <Label>CIRCU</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>536</X>
+          <Y>255</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>CIRCU</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="9" second="6">
+        <Label>KTYPE</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>506</X>
+          <Y>201</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>KTYPE</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="6" second="4">
+        <Label>IMAGE</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>IMAGE</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="6" second="7">
+        <Label>CONTXT</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>581</X>
+          <Y>186</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>CONTXT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="6" second="5">
+        <Label>ROLE</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>570</X>
+          <Y>287</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ROLE</SNRelationshipType>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+  <ProjectItem type="KRLab.DiagramEditor.NetworkDiagram.Diagram" assembly="KRLab.DiagramEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Name>杠杆</Name>
+    <KnowledgeNet>SemanticNet</KnowledgeNet>
+    <Entities>
+      <Entity type="SemanticNode">
+        <Name>费力杠杆，费力，省距离</Name>
+        <Location left="917" top="460" />
+        <Size width="118" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>筷子夹菜、剪刀、天平称量</Name>
+        <Location left="394" top="292" />
+        <Size width="50" height="98" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>一根硬棒在力的作用下能绕固定点O转动，这根硬棒就是杠杆；杠杆平衡的条件是动力×动力臂=阻力×阻力臂</Name>
+        <Location left="580" top="25" />
+        <Size width="120" height="134" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>器材</Name>
+        <Location left="523" top="235" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>等臂杠杆，天平称量物体重量；省力杠杆，省力；费力杠杆，费力，省距离</Name>
+        <Location left="523" top="386" />
+        <Size width="265" height="74" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>图-杠杆</Name>
+        <Location left="650" top="235" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>杠杆</Name>
+        <Location left="253" top="60" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>一根硬棒在力的作用下能绕固定点O转动，这根硬棒就是杠杆</Name>
+        <Location left="765" top="90" />
+        <Size width="393" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>杠杆平衡的条件是动力×动力臂=阻力×阻力臂</Name>
+        <Location left="791" top="171" />
+        <Size width="349" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>等臂杠杆，天平称量物体重量</Name>
+        <Location left="253" top="557" />
+        <Size width="278" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>天平称量</Name>
+        <Location left="253" top="481" />
+        <Size width="77" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>筷子夹菜</Name>
+        <Location left="148" top="292" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>剪刀</Name>
+        <Location left="148" top="375" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>省力杠杆，省力</Name>
+        <Location left="650" top="609" />
+        <Size width="199" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="SN_REL" first="1" second="11">
+        <Label>GRANU</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>GRANU</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="1" second="12">
+        <Label>GRANU</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>366</X>
+          <Y>329</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>GRANU</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="1" second="10">
+        <Label>GRANU</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>GRANU</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="4" second="9">
+        <Label>GRANU</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>541</X>
+          <Y>485</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>GRANU</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="4" second="13">
+        <Label>GRANU</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>GRANU</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="4" second="0">
+        <Label>GRANU</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>GRANU</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="2" second="8">
+        <Label>GRANU</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>725</X>
+          <Y>59</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>GRANU</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="2" second="7">
+        <Label>GRANU</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>GRANU</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="3" second="4">
+        <Label>ROLE</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>532</X>
+          <Y>312</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ROLE</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="3" second="2">
+        <Label>CONTXT</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>588</X>
+          <Y>184</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>CONTXT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="3" second="5">
+        <Label>IMAGE</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>IMAGE</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="6" second="3">
+        <Label>KTYPE</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>468</X>
+          <Y>226</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>KTYPE</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="3" second="1">
+        <Label>CIRCU</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>498</X>
+          <Y>280</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>CIRCU</SNRelationshipType>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+  <ProjectItem type="KRLab.DiagramEditor.NetworkDiagram.Diagram" assembly="KRLab.DiagramEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Name>滑轮</Name>
+    <KnowledgeNet>SemanticNet</KnowledgeNet>
+    <Entities>
+      <Entity type="SemanticNode">
+        <Name>图-滑轮</Name>
+        <Location left="166" top="313" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>图-定滑轮</Name>
+        <Location left="923" top="392" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>定滑轮改变力的方向；动滑轮省力</Name>
+        <Location left="652" top="392" />
+        <Size width="132" height="107" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>器材</Name>
+        <Location left="691" top="256" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>轴固定不动的滑轮是定滑轮；轴可以随吊物一起运动的是动滑轮</Name>
+        <Location left="745" top="54" />
+        <Size width="109" height="140" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>升国旗的滑轮；电动起重机的滑轮</Name>
+        <Location left="562" top="323" />
+        <Size width="50" height="149" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>滑轮</Name>
+        <Location left="421" top="81" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>图-动滑轮</Name>
+        <Location left="818" top="396" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>电动起重机的滑轮</Name>
+        <Location left="316" top="396" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>升国旗的滑轮</Name>
+        <Location left="316" top="313" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>定滑轮改变力的方向</Name>
+        <Location left="421" top="585" />
+        <Size width="278" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>动滑轮省力</Name>
+        <Location left="745" top="585" />
+        <Size width="199" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>轴固定不动的滑轮是定滑轮</Name>
+        <Location left="933" top="111" />
+        <Size width="393" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>轴可以随吊物一起运动的是动滑轮</Name>
+        <Location left="959" top="192" />
+        <Size width="349" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="SN_REL" first="8" second="0">
+        <Label>IMAGE</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>241</X>
+          <Y>345</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>IMAGE</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="9" second="0">
+        <Label>IMAGE</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>IMAGE</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="5" second="9">
+        <Label>GRANU</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>GRANU</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="5" second="8">
+        <Label>GRANU</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>535</X>
+          <Y>354</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>GRANU</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="2" second="10">
+        <Label>GRANU</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>707</X>
+          <Y>529</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>582</X>
+          <Y>560</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>GRANU</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="2" second="11">
+        <Label>GRANU</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>736</X>
+          <Y>524</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>GRANU</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="4" second="13">
+        <Label>GRANU</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>879</X>
+          <Y>85</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>GRANU</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="4" second="12">
+        <Label>GRANU</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>GRANU</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="3" second="5">
+        <Label>CIRCU</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>666</X>
+          <Y>301</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>637</X>
+          <Y>378</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>CIRCU</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="6" second="3">
+        <Label>KTYPE</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>636</X>
+          <Y>247</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>KTYPE</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="3" second="4">
+        <Label>CONTXT</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>753</X>
+          <Y>219</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>CONTXT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="3" second="2">
+        <Label>ROLE</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>703</X>
+          <Y>331</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ROLE</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="3" second="7">
+        <Label>IMAGE</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>IMAGE</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="3" second="1">
+        <Label>IMAGE</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>771</X>
+          <Y>280</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>IMAGE</SNRelationshipType>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+  <ProjectItem type="KRLab.DiagramEditor.NetworkDiagram.Diagram" assembly="KRLab.DiagramEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Name>滑轮组</Name>
+    <KnowledgeNet>SemanticNet</KnowledgeNet>
+    <Entities>
+      <Entity type="SemanticNode">
+        <Name>需要既改变力的方向又想省力的情况下</Name>
+        <Location left="401" top="299" />
+        <Size width="90" height="131" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>人们常常把定滑轮和动滑轮组合在一起叫做滑轮组</Name>
+        <Location left="701" top="89" />
+        <Size width="240" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>器材</Name>
+        <Location left="613" top="233" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>既改变力的方向，又省力</Name>
+        <Location left="573" top="385" />
+        <Size width="138" height="85" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>图-滑轮组</Name>
+        <Location left="740" top="233" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>滑轮组</Name>
+        <Location left="343" top="58" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="SN_REL" first="2" second="3">
+        <Label>ROLE</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>622</X>
+          <Y>310</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ROLE</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="2" second="1">
+        <Label>CONTXT</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>726</X>
+          <Y>166</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>CONTXT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="2" second="4">
+        <Label>IMAGE</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>IMAGE</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="5" second="2">
+        <Label>KTYPE</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>558</X>
+          <Y>224</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>KTYPE</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="2" second="0">
+        <Label>CIRCU</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>588</X>
+          <Y>278</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>CIRCU</SNRelationshipType>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+</Project>

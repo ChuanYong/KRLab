@@ -1,0 +1,2306 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DevLib.Net</name>
+    </assembly>
+    <members>
+        <member name="T:DevLib.Net.Sockets.AsyncSocketUdpServer">
+            <summary>
+            Async Socket Udp Server Class.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketUdpServer._disposed">
+            <summary>
+            Field _disposed.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketUdpServer._listenSocket">
+            <summary>
+            The socket used to listen for incoming connection requests.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketUdpServer._totalBytesReceived">
+            <summary>
+            Counter of the total bytes received by AsyncSocketUdpServer.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketUdpServer._receiveSocketAsyncEventArgs">
+            <summary>
+            Field _receiveSocketAsyncEventArgs.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketUdpServer.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:DevLib.Net.Sockets.AsyncSocketUdpServer"/> class.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketUdpServer.#ctor(System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:DevLib.Net.Sockets.AsyncSocketUdpServer"/> class.
+            </summary>
+            <param name="port">Local port to listen.</param>
+            <param name="bufferSize">Buffer size to use with receive data.</param>
+            <param name="useIPv6">if set to <c>true</c> use IPv6; otherwise, use IPv4.</param>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketUdpServer.Finalize">
+            <summary>
+            Finalizes an instance of the <see cref="T:DevLib.Net.Sockets.AsyncSocketUdpServer"/> class.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketUdpServer.Start(System.Boolean)">
+            <summary>
+            Start AsyncSocketUdpServer.
+            </summary>
+            <param name="throwOnError">true to throw any exception that occurs.-or- false to ignore any exception that occurs.</param>
+            <returns>true if succeeded; otherwise, false.</returns>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketUdpServer.Stop(System.Boolean)">
+            <summary>
+            Stop AsyncSocketUdpServer.
+            </summary>
+            <param name="throwOnError">true to throw any exception that occurs.-or- false to ignore any exception that occurs.</param>
+            <returns>true if succeeded; otherwise, false.</returns>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketUdpServer.Dispose">
+            <summary>
+            Releases all resources used by the current instance of the <see cref="T:DevLib.Net.Sockets.AsyncSocketUdpServer"/> class.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketUdpServer.Close">
+            <summary>
+            Releases all resources used by the current instance of the <see cref="T:DevLib.Net.Sockets.AsyncSocketUdpServer"/> class.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketUdpServer.Dispose(System.Boolean)">
+            <summary>
+            Releases all resources used by the current instance of the <see cref="T:DevLib.Net.Sockets.AsyncSocketUdpServer"/> class.
+            protected virtual for non-sealed class; private for sealed class.
+            </summary>
+            <param name="disposing">true to release both managed and unmanaged resources; false to release only unmanaged resources.</param>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketUdpServer.RaiseEvent(System.EventHandler{DevLib.Net.Sockets.AsyncSocketSessionEventArgs},DevLib.Net.Sockets.AsyncSocketSessionEventArgs)">
+            <summary>
+            Method RaiseEvent.
+            </summary>
+            <param name="eventHandler">Instance of EventHandler.</param>
+            <param name="eventArgs">Instance of AsyncSocketSessionEventArgs.</param>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketUdpServer.RaiseEvent(System.EventHandler{DevLib.Net.Sockets.AsyncSocketErrorEventArgs},DevLib.Net.Sockets.AsyncSocketErrorEventArgs)">
+            <summary>
+            Method RaiseEvent.
+            </summary>
+            <param name="eventHandler">Instance of EventHandler.</param>
+            <param name="eventArgs">Instance of AsyncSocketErrorEventArgs.</param>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketUdpServer.RaiseEvent(System.EventHandler)">
+            <summary>
+            Method RaiseEvent.
+            </summary>
+            <param name="eventHandler">Instance of EventHandler.</param>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketUdpServer.ReceiveSocketAsyncEventArgsCompleted(System.Object,System.Net.Sockets.SocketAsyncEventArgs)">
+            <summary>
+            Method ReceiveSocketAsyncEventArgsCompleted.
+            </summary>
+            <param name="sender">Event sender.</param>
+            <param name="receiveSocketAsyncEventArgs">Instance of SocketAsyncEventArgs.</param>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketUdpServer.ProcessReceive(System.Net.Sockets.SocketAsyncEventArgs)">
+            <summary>
+            Method ProcessReceive.
+            </summary>
+            <param name="receiveSocketAsyncEventArgs">Instance of SocketAsyncEventArgs.</param>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketUdpServer.CloseListenSocket">
+            <summary>
+            Method CloseListenSocket.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketUdpServer.CloseReceiveSocketAsyncEventArgs">
+            <summary>
+            Method CloseReceiveSocketAsyncEventArgs.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketUdpServer.CheckDisposed">
+            <summary>
+            Method CheckDisposed.
+            </summary>
+        </member>
+        <member name="E:DevLib.Net.Sockets.AsyncSocketUdpServer.DataReceived">
+            <summary>
+            Server Data Received Event.
+            </summary>
+        </member>
+        <member name="E:DevLib.Net.Sockets.AsyncSocketUdpServer.ErrorOccurred">
+            <summary>
+            Error Occurred Event.
+            </summary>
+        </member>
+        <member name="E:DevLib.Net.Sockets.AsyncSocketUdpServer.Started">
+            <summary>
+            Server Started Event.
+            </summary>
+        </member>
+        <member name="E:DevLib.Net.Sockets.AsyncSocketUdpServer.Stopped">
+            <summary>
+            Server Stopped Event.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Sockets.AsyncSocketUdpServer.BufferSize">
+            <summary>
+            Gets or sets buffer size to use with receive data.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Sockets.AsyncSocketUdpServer.LocalPort">
+            <summary>
+            Gets or sets local port to listen.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Sockets.AsyncSocketUdpServer.UseIPv6">
+            <summary>
+            Gets or sets a value indicating whether use IPv6 or IPv4.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Sockets.AsyncSocketUdpServer.SessionId">
+            <summary>
+            Gets current session Id.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Sockets.AsyncSocketUdpServer.TotalBytesReceived">
+            <summary>
+            Gets total bytes received by AsyncSocketUdpServer.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Sockets.AsyncSocketUdpServer.IsListening">
+            <summary>
+            Gets a value indicating whether AsyncSocketUdpServer is working or not.
+            </summary>
+        </member>
+        <member name="T:DevLib.Net.Sockets.AsyncSocketErrorEventArgs">
+            <summary>
+            AsyncSocketError EventArgs.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketErrorEventArgs.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:DevLib.Net.Sockets.AsyncSocketErrorEventArgs"/> class.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketErrorEventArgs.#ctor(System.String,System.Exception,DevLib.Net.Sockets.AsyncSocketErrorCodeEnum)">
+            <summary>
+            Initializes a new instance of the <see cref="T:DevLib.Net.Sockets.AsyncSocketErrorEventArgs"/> class.
+            </summary>
+            <param name="message">Error Message.</param>
+            <param name="exception">Instance of Exception.</param>
+            <param name="errorCode">Instance of AsyncSocketErrorCodeEnum.</param>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketErrorEventArgs.ToString">
+            <summary>
+            Creates and returns a string representation of the current exception.
+            </summary>
+            <returns>A string representation of the current exception.</returns>
+        </member>
+        <member name="P:DevLib.Net.Sockets.AsyncSocketErrorEventArgs.Message">
+            <summary>
+            Gets Error Message.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Sockets.AsyncSocketErrorEventArgs.SourceException">
+            <summary>
+            Gets SourceException.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Sockets.AsyncSocketErrorEventArgs.ErrorCode">
+            <summary>
+            Gets Error Code.
+            </summary>
+        </member>
+        <member name="T:DevLib.Net.IPAddressRange">
+            <summary>
+            Provides an Internet Protocol (IP) address range.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.IPAddressRange.RegexCidrRange">
+            <summary>
+            CIDR range: "192.168.0.0/12", "fe80::/10"
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.IPAddressRange.RegexSingleAddress">
+            <summary>
+            Single address: "127.0.0.1", ":;1"
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.IPAddressRange.RegexAddressRange">
+            <summary>
+            Begin to end range: "169.254.0.0-169.254.0.255"
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.IPAddressRange.RegexBitMaskRange">
+            <summary>
+            Bit mask range: "192.168.0.0/255.255.255.0"
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.IPAddressRange.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:DevLib.Net.IPAddressRange"/> class.
+            Creates an empty range object, equivalent to "0.0.0.0/0".
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.IPAddressRange.#ctor(System.Net.IPAddress)">
+            <summary>
+            Initializes a new instance of the <see cref="T:DevLib.Net.IPAddressRange"/> class.
+            Creates a new range with the same start/end address (range of one)
+            </summary>
+            <param name="singleAddress">The single address.</param>
+        </member>
+        <member name="M:DevLib.Net.IPAddressRange.#ctor(System.Net.IPAddress,System.Net.IPAddress)">
+            <summary>
+            Initializes a new instance of the <see cref="T:DevLib.Net.IPAddressRange"/> class.
+            Create a new range from a begin and end address. Throws an exception if Begin comes after End, or the addresses are not in the same family.
+            </summary>
+            <param name="begin">The begin IPAddress.</param>
+            <param name="end">The end IPAddress.</param>
+        </member>
+        <member name="M:DevLib.Net.IPAddressRange.#ctor(System.Net.IPAddress,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:DevLib.Net.IPAddressRange"/> class.
+            Creates a range from a base address and mask bits. This can also be used with <see cref="M:DevLib.Net.IPAddressRange.GetSubnetMaskLength(System.Net.IPAddress)"/> to create a range based on a subnet mask.
+            </summary>
+            <param name="baseAddress">The base address.</param>
+            <param name="maskLength">Length of the mask.</param>
+        </member>
+        <member name="M:DevLib.Net.IPAddressRange.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:DevLib.Net.IPAddressRange"/> class.
+            </summary>
+            <param name="ipRangeString">The ip range string.</param>
+        </member>
+        <member name="M:DevLib.Net.IPAddressRange.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:DevLib.Net.IPAddressRange"/> class.
+            </summary>
+            <param name="info">The serialization information.</param>
+            <param name="context">The streaming context.</param>
+        </member>
+        <member name="M:DevLib.Net.IPAddressRange.Parse(System.String)">
+            <summary>
+            Parses the specified ip range string.
+            </summary>
+            <param name="ipRangeString">The ip range string.</param>
+            <returns>IPAddressRange instance.</returns>
+        </member>
+        <member name="M:DevLib.Net.IPAddressRange.TryParse(System.String,DevLib.Net.IPAddressRange@)">
+            <summary>
+            Try to parses the specified ip range string.
+            </summary>
+            <param name="ipRangeString">The ip range string.</param>
+            <param name="ipAddressRange">The IPAddressRange object.</param>
+            <returns>true if parse succeeded; otherwise, false.</returns>
+        </member>
+        <member name="M:DevLib.Net.IPAddressRange.GetSubnetMaskLength(System.Net.IPAddress)">
+            <summary>
+            Takes a subnet mask (eg, "255.255.254.0") and returns the CIDR bit length of that address. Throws an exception if the passed address is not valid as a subnet mask.
+            </summary>
+            <param name="subnetMask">The subnet mask to use.</param>
+            <returns>The subnet mask length.</returns>
+        </member>
+        <member name="M:DevLib.Net.IPAddressRange.Contains(System.Net.IPAddress)">
+            <summary>
+            Determines whether the current IPAddressRange contains the specified ip address.
+            </summary>
+            <param name="ipAddress">The ip address.</param>
+            <returns>true if the current IPAddressRange contains the specified ip address; otherwise, false.</returns>
+        </member>
+        <member name="M:DevLib.Net.IPAddressRange.Contains(System.String)">
+            <summary>
+            Determines whether the current IPAddressRange contains the specified ip address.
+            </summary>
+            <param name="ipAddressString">The ip address.</param>
+            <returns>true if the current IPAddressRange contains the specified ip address; otherwise, false.</returns>
+        </member>
+        <member name="M:DevLib.Net.IPAddressRange.Contains(DevLib.Net.IPAddressRange)">
+            <summary>
+            Determines whether the current IPAddressRange contains the specified ip address range.
+            </summary>
+            <param name="ipAddressRange">The ip address range.</param>
+            <returns>true if the current IPAddressRange contains the specified ip address range; otherwise, false.</returns>
+        </member>
+        <member name="M:DevLib.Net.IPAddressRange.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Populates a <see cref="T:System.Runtime.Serialization.SerializationInfo" /> with the data needed to serialize the target object.
+            </summary>
+            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> to populate with data.</param>
+            <param name="context">The destination (see <see cref="T:System.Runtime.Serialization.StreamingContext" />) for this serialization.</param>
+        </member>
+        <member name="M:DevLib.Net.IPAddressRange.GetEnumerator">
+            <summary>
+            Returns an enumerator that iterates through the collection.
+            </summary>
+            <returns>An enumerator that can be used to iterate through the collection.</returns>
+        </member>
+        <member name="M:DevLib.Net.IPAddressRange.ToString">
+            <summary>
+            Returns the range in the format "begin-end", or as a single address if End is the same as Begin.
+            </summary>
+            <returns>A <see cref="T:System.String"/> that represents this instance.</returns>
+        </member>
+        <member name="M:DevLib.Net.IPAddressRange.GetPrefixLength">
+            <summary>
+            Gets the length of the prefix.
+            </summary>
+            <returns>The length of the prefix.</returns>
+        </member>
+        <member name="M:DevLib.Net.IPAddressRange.ToCidrString">
+            <summary>
+            Returns a CIDR string if this matches exactly a CIDR subnet.
+            </summary>
+            <returns>The CIDR string.</returns>
+        </member>
+        <member name="M:DevLib.Net.IPAddressRange.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            Returns an enumerator that iterates through a collection.
+            </summary>
+            <returns>An <see cref="T:System.Collections.IEnumerator" /> object that can be used to iterate through the collection.</returns>
+        </member>
+        <member name="M:DevLib.Net.IPAddressRange.DeserializeNode(System.Runtime.Serialization.SerializationInfo,System.Collections.Generic.List{System.String},System.String)">
+            <summary>
+            Deserializes the node.
+            </summary>
+            <param name="info">The serialization information.</param>
+            <param name="names">The names.</param>
+            <param name="name">The name.</param>
+            <returns>IPAddress instance.</returns>
+        </member>
+        <member name="P:DevLib.Net.IPAddressRange.Begin">
+            <summary>
+            Gets or sets the begin IPAddress.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.IPAddressRange.End">
+            <summary>
+            Gets or sets the end IPAddress.
+            </summary>
+        </member>
+        <member name="T:DevLib.Net.Sockets.AsyncSocketTcpServer">
+            <summary>
+            Async Socket Tcp Server Class.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketTcpServer._syncRoot">
+            <summary>
+            Field _syncRoot.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketTcpServer._sessionDictionary">
+            <summary>
+            Dictionary of connected socket client.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketTcpServer._disposed">
+            <summary>
+            Field _disposed.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketTcpServer._listenSocket">
+            <summary>
+            The socket used to listen for incoming connection requests.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketTcpServer._connectedSocketsCount">
+            <summary>
+            The total number of clients connected to the server.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketTcpServer._acceptSocketAsyncEventArgs">
+            <summary>
+            Field _acceptSocketAsyncEventArgs.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketTcpServer._totalBytesReceived">
+            <summary>
+            Counter of the total bytes received by AsyncSocketTcpServer.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketTcpServer._totalBytesSent">
+            <summary>
+            Counter of the total bytes sent by AsyncSocketTcpServer.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpServer.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:DevLib.Net.Sockets.AsyncSocketTcpServer"/> class.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpServer.#ctor(System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:DevLib.Net.Sockets.AsyncSocketTcpServer"/> class.
+            </summary>
+            <param name="port">Local port to listen.</param>
+            <param name="bufferSize">Buffer size to use with receive data.</param>
+            <param name="useIPv6">if set to <c>true</c> use IPv6; otherwise, use IPv4.</param>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpServer.Finalize">
+            <summary>
+            Finalizes an instance of the <see cref="T:DevLib.Net.Sockets.AsyncSocketTcpServer"/> class.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpServer.Start(System.Boolean)">
+            <summary>
+            Start AsyncSocketTcpServer.
+            </summary>
+            <param name="throwOnError">true to throw any exception that occurs.-or- false to ignore any exception that occurs.</param>
+            <returns>true if succeeded; otherwise, false.</returns>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpServer.Stop(System.Boolean)">
+            <summary>
+            Stop AsyncSocketTcpServer.
+            </summary>
+            <param name="throwOnError">true to throw any exception that occurs.-or- false to ignore any exception that occurs.</param>
+            <returns>true if succeeded; otherwise, false.</returns>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpServer.GetRemoteIPEndPoint(System.Int32)">
+            <summary>
+            Get connected socket RemoteIPEndPoint.
+            </summary>
+            <param name="sessionId">Connected socket Id.</param>
+            <returns>Connected socket RemoteIPEndPoint.</returns>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpServer.GetSessionCollection">
+            <summary>
+            Get current connected sockets collection.
+            </summary>
+            <returns>Instance of Dictionary{int, IPEndPoint}.</returns>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpServer.CloseSession(System.Int32)">
+            <summary>
+            Close connected socket.
+            </summary>
+            <param name="sessionId">Connected socket Id.</param>
+            <returns>true if succeeded; otherwise, false.</returns>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpServer.Send(System.Int32,System.Byte[])">
+            <summary>
+            Sends data asynchronously to a connected socket.
+            </summary>
+            <param name="sessionId">Connected socket session Id.</param>
+            <param name="buffer">Data to send.</param>
+            <returns>true if succeeded; otherwise, false.</returns>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpServer.Dispose">
+            <summary>
+            Releases all resources used by the current instance of the <see cref="T:DevLib.Net.Sockets.AsyncSocketTcpServer"/> class.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpServer.Close">
+            <summary>
+            Releases all resources used by the current instance of the <see cref="T:DevLib.Net.Sockets.AsyncSocketTcpServer"/> class.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpServer.Dispose(System.Boolean)">
+            <summary>
+            Releases all resources used by the current instance of the <see cref="T:DevLib.Net.Sockets.AsyncSocketTcpServer"/> class.
+            protected virtual for non-sealed class; private for sealed class.
+            </summary>
+            <param name="disposing">true to release both managed and unmanaged resources; false to release only unmanaged resources.</param>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpServer.RaiseEvent(System.EventHandler{DevLib.Net.Sockets.AsyncSocketSessionEventArgs},DevLib.Net.Sockets.AsyncSocketSessionEventArgs)">
+            <summary>
+            Method RaiseEvent.
+            </summary>
+            <param name="eventHandler">Instance of EventHandler.</param>
+            <param name="eventArgs">Instance of AsyncSocketSessionEventArgs.</param>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpServer.RaiseEvent(System.EventHandler{DevLib.Net.Sockets.AsyncSocketErrorEventArgs},DevLib.Net.Sockets.AsyncSocketErrorEventArgs)">
+            <summary>
+            Method RaiseEvent.
+            </summary>
+            <param name="eventHandler">Instance of EventHandler.</param>
+            <param name="eventArgs">Instance of AsyncSocketErrorEventArgs.</param>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpServer.RaiseEvent(System.EventHandler)">
+            <summary>
+            Method RaiseEvent.
+            </summary>
+            <param name="eventHandler">Instance of EventHandler.</param>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpServer.CloseListenSocket">
+            <summary>
+            Method CloseListenSocket.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpServer.ClearSessionDictionary">
+            <summary>
+            Method ClearSessionDictionary.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpServer.StartAccept">
+            <summary>
+            Method StartAccept.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpServer.AcceptSocketAsyncEventArgsCompleted(System.Object,System.Net.Sockets.SocketAsyncEventArgs)">
+            <summary>
+            Method AcceptSocketAsyncEventArgsCompleted.
+            </summary>
+            <param name="sender">Event sender.</param>
+            <param name="acceptSocketAsyncEventArgs">Instance of SocketAsyncEventArgs.</param>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpServer.ProcessAccept">
+            <summary>
+            Method ProcessAccept.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpServer.ReceiveSocketAsyncEventArgsCompleted(System.Object,System.Net.Sockets.SocketAsyncEventArgs)">
+            <summary>
+            Method ReceiveSocketAsyncEventArgsCompleted.
+            </summary>
+            <param name="sender">Event sender.</param>
+            <param name="receiveSocketAsyncEventArgs">Instance of SocketAsyncEventArgs.</param>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpServer.ProcessReceive(System.Net.Sockets.SocketAsyncEventArgs)">
+            <summary>
+            Method ProcessReceive.
+            </summary>
+            <param name="receiveSocketAsyncEventArgs">Instance of SocketAsyncEventArgs.</param>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpServer.SendSocketAsyncEventArgsCompleted(System.Object,System.Net.Sockets.SocketAsyncEventArgs)">
+            <summary>
+            Method SendSocketAsyncEventArgsCompleted.
+            </summary>
+            <param name="sender">Event sender.</param>
+            <param name="sendSocketAsyncEventArgs">Instance of SocketAsyncEventArgs.</param>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpServer.ProcessSend(System.Net.Sockets.SocketAsyncEventArgs)">
+            <summary>
+            Method ProcessSend.
+            </summary>
+            <param name="sendSocketAsyncEventArgs">Instance of SocketAsyncEventArgs.</param>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpServer.CloseAcceptSocketAsyncEventArgs">
+            <summary>
+            Method CloseAcceptSocketAsyncEventArgs.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpServer.CloseSessionSocketAsyncEventArgs(System.Net.Sockets.SocketAsyncEventArgs)">
+            <summary>
+            Method CloseSessionSocketAsyncEventArgs.
+            </summary>
+            <param name="receiveSocketAsyncEventArgs">Instance of SocketAsyncEventArgs.</param>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpServer.CheckDisposed">
+            <summary>
+            Method CheckDisposed.
+            </summary>
+        </member>
+        <member name="E:DevLib.Net.Sockets.AsyncSocketTcpServer.Connected">
+            <summary>
+            Client Connected Event.
+            </summary>
+        </member>
+        <member name="E:DevLib.Net.Sockets.AsyncSocketTcpServer.Disconnected">
+            <summary>
+            Client Disconnected Event.
+            </summary>
+        </member>
+        <member name="E:DevLib.Net.Sockets.AsyncSocketTcpServer.DataReceived">
+            <summary>
+            Server Data Received Event.
+            </summary>
+        </member>
+        <member name="E:DevLib.Net.Sockets.AsyncSocketTcpServer.DataSent">
+            <summary>
+            Server Data Sent Event.
+            </summary>
+        </member>
+        <member name="E:DevLib.Net.Sockets.AsyncSocketTcpServer.ErrorOccurred">
+            <summary>
+            Error Occurred Event.
+            </summary>
+        </member>
+        <member name="E:DevLib.Net.Sockets.AsyncSocketTcpServer.Started">
+            <summary>
+            Server Started Event.
+            </summary>
+        </member>
+        <member name="E:DevLib.Net.Sockets.AsyncSocketTcpServer.Stopped">
+            <summary>
+            Server Stopped Event.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Sockets.AsyncSocketTcpServer.PeakConnectedSocketsCount">
+            <summary>
+            Gets the maximum amount of connected sockets.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Sockets.AsyncSocketTcpServer.BufferSize">
+            <summary>
+            Gets or sets buffer size to use with receive data.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Sockets.AsyncSocketTcpServer.LocalPort">
+            <summary>
+            Gets or sets local port to listen.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Sockets.AsyncSocketTcpServer.UseIPv6">
+            <summary>
+            Gets or sets a value indicating whether use IPv6 or IPv4.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Sockets.AsyncSocketTcpServer.TotalBytesReceived">
+            <summary>
+            Gets total bytes received by AsyncSocketTcpServer.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Sockets.AsyncSocketTcpServer.TotalBytesSent">
+            <summary>
+            Gets total bytes sent by AsyncSocketTcpServer.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Sockets.AsyncSocketTcpServer.ConnectedSocketsCount">
+            <summary>
+            Gets current numbers of connected sockets.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Sockets.AsyncSocketTcpServer.IsListening">
+            <summary>
+            Gets a value indicating whether AsyncSocketTcpServer is working or not.
+            </summary>
+        </member>
+        <member name="T:DevLib.Net.Ftp.FtpFileInfo">
+            <summary>
+            Class FtpFileInfo.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Ftp.FtpFileInfo._parentDirectory">
+            <summary>
+            Field _parentDirectory.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpFileInfo.CombinePath(System.String[])">
+            <summary>
+            Combines an array of strings into a ftp path.
+            </summary>
+            <param name="paths">An array of parts of the path.</param>
+            <returns>The combined paths.</returns>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpFileInfo.GetDirectoryName(System.String)">
+            <summary>
+            Returns the directory information for the specified path string.
+            </summary>
+            <param name="path">The path of a file or directory.</param>
+            <returns>Directory information for <paramref name="path" />, or null if <paramref name="path" /> denotes a root directory or is null. Returns <see cref="F:System.String.Empty" /> if <paramref name="path" /> does not contain directory information.</returns>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpFileInfo.GetRootLength(System.String)">
+            <summary>
+            Method GetRootLength.
+            </summary>
+            <param name="path">The path of a file or directory.</param>
+            <returns>The length of root.</returns>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpFileInfo.IsDirectorySeparator(System.Char)">
+            <summary>
+            Method IsDirectorySeparator.
+            </summary>
+            <param name="c">Char to check.</param>
+            <returns>true if char is directory separator; otherwise, false.</returns>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpFileInfo.CheckInvalidPathChars(System.String,System.Boolean)">
+            <summary>
+            Static Method CheckInvalidPathChars.
+            </summary>
+            <param name="path">Path to check.</param>
+            <param name="checkAdditional">Whether with additional check.</param>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpFileInfo.HasIllegalCharacters(System.String,System.Boolean)">
+            <summary>
+            Static Method HasIllegalCharacters.
+            </summary>
+            <param name="path">Path to check.</param>
+            <param name="checkAdditional">Whether with additional check.</param>
+            <returns>true if the path has illegal characters; otherwise, false.</returns>
+        </member>
+        <member name="P:DevLib.Net.Ftp.FtpFileInfo.Name">
+            <summary>
+            Gets or sets file name.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Ftp.FtpFileInfo.ParentDirectory">
+            <summary>
+            Gets or sets file parent directory.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Ftp.FtpFileInfo.FullPath">
+            <summary>
+            Gets file full path.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Ftp.FtpFileInfo.Size">
+            <summary>
+            Gets or sets file size in byte.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Ftp.FtpFileInfo.IsDirectory">
+            <summary>
+            Gets or sets a value indicating whether this instance is a folder or not.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Ftp.FtpFileInfo.LastModifiedTime">
+            <summary>
+            Gets or sets file last modified time.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Ftp.FtpFileInfo.Flags">
+            <summary>
+            Gets or sets unix file flags.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Ftp.FtpFileInfo.Owner">
+            <summary>
+            Gets or sets unix file owner.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Ftp.FtpFileInfo.Group">
+            <summary>
+            Gets or sets unix file group.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Ftp.FtpFileInfo.IsSymLink">
+            <summary>
+            Gets or sets a value indicating whether unix file is symlink.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Ftp.FtpFileInfo.SymLinkTargetPath">
+            <summary>
+            Gets or sets unix file symlink target path.
+            </summary>
+        </member>
+        <member name="T:DevLib.Net.Ftp.FtpClient">
+            <summary>
+            Class FtpClient.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Ftp.FtpClient._totalBytesDownloaded">
+            <summary>
+            Counter of the total bytes downloaded by FtpClient.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Ftp.FtpClient._totalBytesUploaded">
+            <summary>
+            Counter of the total bytes uploaded by FtpClient.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpClient.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:DevLib.Net.Ftp.FtpClient"/> class.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpClient.#ctor(DevLib.Net.Ftp.FtpSetup)">
+            <summary>
+            Initializes a new instance of the <see cref="T:DevLib.Net.Ftp.FtpClient"/> class.
+            </summary>
+            <param name="ftpSetup">Instance of FtpSetup.</param>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpClient.Connect(System.Boolean)">
+            <summary>
+            Try to connect to ftp.
+            </summary>
+            <param name="throwOnError">true to throw any exception that occurs.-or- false to ignore any exception that occurs.</param>
+            <returns>true if succeeded; otherwise, false.</returns>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpClient.PrintWorkingDirectory(System.Boolean)">
+            <summary>
+            Prints the name of the current working directory.
+            </summary>
+            <param name="throwOnError">true to throw any exception that occurs.-or- false to ignore any exception that occurs.</param>
+            <returns>Current working directory string.</returns>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpClient.GetFullDirectoryList(System.String,System.Boolean,System.Boolean)">
+            <summary>
+            Gets a list of the files and folders on an FTP server.
+            </summary>
+            <param name="remotePath">The path on an FTP server.</param>
+            <param name="recursive">true to get directories, subdirectories, and files in <paramref name="remotePath" />; otherwise, false.</param>
+            <param name="throwOnError">true to throw any exception that occurs.-or- false to ignore any exception that occurs.</param>
+            <returns>List of FtpFileInfo, or null if path does not exist.</returns>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpClient.GetDirectoryList(System.String,System.Boolean,System.Boolean)">
+            <summary>
+            Gets a list of the folders on an FTP server.
+            </summary>
+            <param name="remotePath">The path on an FTP server.</param>
+            <param name="recursive">true to get directories and subdirectories in <paramref name="remotePath" />; otherwise, false.</param>
+            <param name="throwOnError">true to throw any exception that occurs.-or- false to ignore any exception that occurs.</param>
+            <returns>List of FtpFileInfo, or null if path does not exist.</returns>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpClient.GetFileList(System.String,System.Boolean,System.Boolean)">
+            <summary>
+            Gets a list of the files on an FTP server.
+            </summary>
+            <param name="remotePath">The path on an FTP server.</param>
+            <param name="recursive">true to get all files from directories and subdirectories in <paramref name="remotePath" />; otherwise, false.</param>
+            <param name="throwOnError">true to throw any exception that occurs.-or- false to ignore any exception that occurs.</param>
+            <returns>List of FtpFileInfo, or null if path does not exist.</returns>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpClient.ExistsFile(System.String,System.Boolean)">
+            <summary>
+            Determines whether the specified file exists on ftp.
+            </summary>
+            <param name="remoteFile">The file to check.</param>
+            <param name="throwOnError">true to throw any exception that occurs.-or- false to ignore any exception that occurs.</param>
+            <returns>true if the specified file exists on ftp; otherwise, false.</returns>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpClient.GetFileDateTimestamp(System.String,System.Boolean)">
+            <summary>
+            Retrieve the DateTime of a file on an FTP server.
+            </summary>
+            <param name="remoteFile">The full path on an FTP server.</param>
+            <param name="throwOnError">true to throw any exception that occurs.-or- false to ignore any exception that occurs.</param>
+            <returns>File last modified time if succeeded; otherwise, DateTime.MinValue.</returns>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpClient.GetFileSize(System.String,System.Boolean)">
+            <summary>
+            Retrieve the size of a file on an FTP server.
+            </summary>
+            <param name="remoteFile">The full path on an FTP server.</param>
+            <param name="throwOnError">true to throw any exception that occurs.-or- false to ignore any exception that occurs.</param>
+            <returns>File size if succeeded; otherwise, -1.</returns>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpClient.DownloadFile(System.String,System.String,System.Boolean,System.Boolean)">
+            <summary>
+            Download a file from an FTP server.
+            </summary>
+            <param name="remoteFile">The source file on an FTP server.</param>
+            <param name="localFile">The local destination file.</param>
+            <param name="overwrite">Whether overwrite exists file.</param>
+            <param name="throwOnError">true to throw any exception that occurs.-or- false to ignore any exception that occurs.</param>
+            <returns>true if succeeded; otherwise, false.</returns>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpClient.DownloadFile(System.String,System.Boolean)">
+            <summary>
+            Download a file from an FTP server.
+            </summary>
+            <param name="remoteFile">The source file on an FTP server.</param>
+            <param name="throwOnError">true to throw any exception that occurs.-or- false to ignore any exception that occurs.</param>
+            <returns>true if succeeded; otherwise, false.</returns>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpClient.DownloadFileStream(System.String,System.Boolean)">
+            <summary>
+            Download a file from an FTP server.
+            </summary>
+            <param name="remoteFile">The source file on an FTP server.</param>
+            <param name="throwOnError">true to throw any exception that occurs.-or- false to ignore any exception that occurs.</param>
+            <returns>true if succeeded; otherwise, false.</returns>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpClient.UploadFile(System.String,System.String,System.Boolean,System.Boolean)">
+            <summary>
+            Uploads a file to an FTP server.
+            </summary>
+            <param name="localFile">The local source file.</param>
+            <param name="remoteFile">The destination file on an FTP server.</param>
+            <param name="overwrite">Whether overwrite exists file.</param>
+            <param name="throwOnError">true to throw any exception that occurs.-or- false to ignore any exception that occurs.</param>
+            <returns>true if succeeded; otherwise, false.</returns>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpClient.UploadFile(System.IO.Stream,System.String,System.Boolean,System.Boolean)">
+            <summary>
+            Uploads a file to an FTP server.
+            </summary>
+            <param name="stream">The source stream to upload.</param>
+            <param name="remoteFile">The destination file on an FTP server.</param>
+            <param name="overwrite">Whether overwrite exists file.</param>
+            <param name="throwOnError">true to throw any exception that occurs.-or- false to ignore any exception that occurs.</param>
+            <returns>true if succeeded; otherwise, false.</returns>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpClient.UploadFile(System.Byte[],System.String,System.Boolean,System.Boolean)">
+            <summary>
+            Uploads a file to an FTP server.
+            </summary>
+            <param name="bytes">The source bytes to upload.</param>
+            <param name="remoteFile">The destination file on an FTP server.</param>
+            <param name="overwrite">Whether overwrite exists file.</param>
+            <param name="throwOnError">true to throw any exception that occurs.-or- false to ignore any exception that occurs.</param>
+            <returns>true if succeeded; otherwise, false.</returns>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpClient.AppendFile(System.String,System.String,System.Boolean)">
+            <summary>
+            Append a file to an existing file on an FTP server.
+            </summary>
+            <param name="localFile">The local source file.</param>
+            <param name="remoteFile">The destination file on an FTP server.</param>
+            <param name="throwOnError">true to throw any exception that occurs.-or- false to ignore any exception that occurs.</param>
+            <returns>true if succeeded; otherwise, false.</returns>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpClient.AppendFile(System.IO.Stream,System.String,System.Boolean)">
+            <summary>
+            Append a file to an existing file on an FTP server.
+            </summary>
+            <param name="stream">The source stream to append.</param>
+            <param name="remoteFile">The destination file on an FTP server.</param>
+            <param name="throwOnError">true to throw any exception that occurs.-or- false to ignore any exception that occurs.</param>
+            <returns>true if succeeded; otherwise, false.</returns>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpClient.AppendFile(System.Byte[],System.String,System.Boolean)">
+            <summary>
+            Append a file to an existing file on an FTP server.
+            </summary>
+            <param name="bytes">The source bytes to append.</param>
+            <param name="remoteFile">The destination file on an FTP server.</param>
+            <param name="throwOnError">true to throw any exception that occurs.-or- false to ignore any exception that occurs.</param>
+            <returns>true if succeeded; otherwise, false.</returns>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpClient.DeleteFile(System.String,System.Boolean)">
+            <summary>
+            Delete a file on an FTP server.
+            </summary>
+            <param name="remoteFile">The target file on an FTP server.</param>
+            <param name="throwOnError">true to throw any exception that occurs.-or- false to ignore any exception that occurs.</param>
+            <returns>true if succeeded; otherwise, false.</returns>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpClient.MoveFile(System.String,System.String,System.Boolean,System.Boolean)">
+            <summary>
+            Move a file on an FTP server.
+            </summary>
+            <param name="sourceRemoteFile">The source full path on an FTP server.</param>
+            <param name="destinationRemoteFile">The destination full path on an FTP server.</param>
+            <param name="overwrite">true if the destination file can be overwritten; otherwise, false.</param>
+            <param name="throwOnError">true to throw any exception that occurs.-or- false to ignore any exception that occurs.</param>
+            <returns>true if succeeded; otherwise, false.</returns>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpClient.ExistsDirectory(System.String,System.Boolean)">
+            <summary>
+            Determines whether the given path refers to an existing directory on ftp.
+            </summary>
+            <param name="remotePath">The path to test.</param>
+            <param name="throwOnError">true to throw any exception that occurs.-or- false to ignore any exception that occurs.</param>
+            <returns>true if path refers to an existing directory on ftp; otherwise, false.</returns>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpClient.GetDirectoryDateTimestamp(System.String,System.Boolean)">
+            <summary>
+            Retrieve the DateTime of a Directory on an FTP server.
+            </summary>
+            <param name="remotePath">The full path on an FTP server.</param>
+            <param name="throwOnError">true to throw any exception that occurs.-or- false to ignore any exception that occurs.</param>
+            <returns>Directory last modified time if succeeded; otherwise, DateTime.MinValue.</returns>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpClient.GetDirectorySize(System.String,System.Boolean)">
+            <summary>
+            Retrieve the size of a directory on an FTP server.
+            </summary>
+            <param name="remotePath">The full path on an FTP server.</param>
+            <param name="throwOnError">true to throw any exception that occurs.-or- false to ignore any exception that occurs.</param>
+            <returns>Directory recursive size if succeeded; otherwise, -1.</returns>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpClient.MakeDirectory(System.String,System.Boolean)">
+            <summary>
+            Creates a directory on an FTP server.
+            </summary>
+            <param name="remotePath">The full path on an FTP server.</param>
+            <param name="throwOnError">true to throw any exception that occurs.-or- false to ignore any exception that occurs.</param>
+            <returns>true if succeeded; otherwise, false.</returns>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpClient.RemoveDirectory(System.String,System.Boolean)">
+            <summary>
+            Removes a directory on an FTP server.
+            </summary>
+            <param name="remotePath">The full path on an FTP server.</param>
+            <param name="throwOnError">true to throw any exception that occurs.-or- false to ignore any exception that occurs.</param>
+            <returns>true if succeeded; otherwise, false.</returns>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpClient.MoveDirectory(System.String,System.String,System.Boolean,System.Boolean)">
+            <summary>
+            Move a directory on an FTP server.
+            </summary>
+            <param name="sourceRemotePath">The source full path on an FTP server.</param>
+            <param name="destinationRemotePath">The destination full path on an FTP server.</param>
+            <param name="overwrite">true if the destination directory can be overwritten; otherwise, false.</param>
+            <param name="throwOnError">true to throw any exception that occurs.-or- false to ignore any exception that occurs.</param>
+            <returns>true if succeeded; otherwise, false.</returns>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpClient.Rename(System.String,System.String,System.Boolean)">
+            <summary>
+            Renames a directory or a file on an FTP server.
+            </summary>
+            <param name="remotePath">The old full path on an FTP server.</param>
+            <param name="newName">The new name of the file being renamed.</param>
+            <param name="throwOnError">true to throw any exception that occurs.-or- false to ignore any exception that occurs.</param>
+            <returns>true if succeeded; otherwise, false.</returns>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpClient.UploadFileHelper(System.String,System.String,System.Boolean)">
+            <summary>
+            Uploads a file to an FTP server.
+            </summary>
+            <param name="localFile">The local source file to upload.</param>
+            <param name="remoteFile">The destination file on an FTP server.</param>
+            <param name="append">true to use append method; false to use upload method.</param>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpClient.UploadFileHelper(System.IO.Stream,System.String,System.Boolean)">
+            <summary>
+            Uploads a file to an FTP server.
+            </summary>
+            <param name="stream">The source stream to upload.</param>
+            <param name="remoteFile">The destination file on an FTP server.</param>
+            <param name="append">true to use append method; false to use upload method.</param>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpClient.UploadFileHelper(System.Byte[],System.String,System.Boolean)">
+            <summary>
+            Uploads a file to an FTP server.
+            </summary>
+            <param name="bytes">The source bytes to upload.</param>
+            <param name="remoteFile">The destination file on an FTP server.</param>
+            <param name="append">true to use append method; false to use upload method.</param>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpClient.MoveHelper(System.String,System.String)">
+            <summary>
+            Move a file on an FTP server.
+            </summary>
+            <param name="sourceRemoteFile">The source full path on an FTP server.</param>
+            <param name="destinationRemoteFile">The destination full path on an FTP server.</param>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpClient.MakeDirectoryHelper(System.String,System.Boolean)">
+            <summary>
+            Creates a directory on an FTP server.
+            </summary>
+            <param name="remotePath">The full path on an FTP server.</param>
+            <param name="recursive">true to make recursive directory; otherwise, false.</param>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpClient.RemoveDirectoryHelper(System.String,System.Boolean)">
+            <summary>
+            Removes a directory on an FTP server.
+            </summary>
+            <param name="remotePath">The full path on an FTP server.</param>
+            <param name="recursive">true to delete directories, subdirectories, and files in <paramref name="remotePath" />; otherwise, false.</param>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpClient.MoveDirectoryHelper(System.String,System.String,System.Boolean,System.Boolean)">
+            <summary>
+            Move a directory on an FTP server.
+            </summary>
+            <param name="sourceRemotePath">The source full path on an FTP server.</param>
+            <param name="destinationRemotePath">The destination full path on an FTP server.</param>
+            <param name="recursive">true to move directories, subdirectories, and files in <paramref name="sourceRemotePath" />; otherwise, false.</param>
+            <param name="overwrite">true if the destination directory can be overwritten; otherwise, false.</param>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpClient.CreateFtpWebRequest(System.String,System.String,System.Boolean)">
+            <summary>
+            Method CreateFtpWebRequest.
+            </summary>
+            <param name="method">Ftp method.</param>
+            <param name="remotePath">Ftp path.</param>
+            <param name="isDirectoryOnly">Only treat the <paramref name="remotePath" /> as a directory path or not.</param>
+            <returns>Instance of FtpWebRequest.</returns>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpClient.GetFtpWebResponseRawString(System.Net.FtpWebRequest)">
+            <summary>
+            Method GetFtpWebResponseRawString.
+            </summary>
+            <param name="request">Instance of FtpWebRequest.</param>
+            <returns>String from FtpWebResponse's stream.</returns>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpClient.CheckHostName">
+            <summary>
+            Method CheckHostName.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpClient.UpdateFtpInfo(System.Net.FtpWebResponse)">
+            <summary>
+            Method UpdateFtpInfo.
+            </summary>
+            <param name="response">Instance of FtpWebResponse.</param>
+        </member>
+        <member name="P:DevLib.Net.Ftp.FtpClient.TotalBytesDownloaded">
+            <summary>
+            Gets total bytes downloaded by FtpClient.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Ftp.FtpClient.TotalBytesUploaded">
+            <summary>
+            Gets total bytes uploaded by FtpClient.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Ftp.FtpClient.FtpSetupInfo">
+            <summary>
+            Gets or sets instance of FtpSetup.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Ftp.FtpClient.WelcomeMessage">
+            <summary>
+            Gets ftp welcome message.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Ftp.FtpClient.BannerMessage">
+            <summary>
+            Gets ftp banner message.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Ftp.FtpClient.ExitMessage">
+            <summary>
+            Gets ftp exit message.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Ftp.FtpClient.StatusCode">
+            <summary>
+            Gets ftp status code.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Ftp.FtpClient.StatusDescription">
+            <summary>
+            Gets ftp status description.
+            </summary>
+        </member>
+        <member name="T:DevLib.Net.Bitwise">
+            <summary>
+            Bitwise operation utility class.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.Bitwise.Not(System.Byte[])">
+            <summary>
+            NOT operator.
+            </summary>
+            <param name="bytes">The source bytes.</param>
+            <returns>The result bytes.</returns>
+        </member>
+        <member name="M:DevLib.Net.Bitwise.And(System.Byte[],System.Byte[])">
+            <summary>
+            AND operator.
+            </summary>
+            <param name="bytesLeft">The left source bytes.</param>
+            <param name="bytesRight">The right source bytes.</param>
+            <returns>The result bytes.</returns>
+        </member>
+        <member name="M:DevLib.Net.Bitwise.Or(System.Byte[],System.Byte[])">
+            <summary>
+            OR operator.
+            </summary>
+            <param name="bytesLeft">The left source bytes.</param>
+            <param name="bytesRight">The right source bytes.</param>
+            <returns>The result bytes.</returns>
+        </member>
+        <member name="M:DevLib.Net.Bitwise.GreaterEqual(System.Byte[],System.Byte[])">
+            <summary>
+            Greater or Equal operator.
+            </summary>
+            <param name="bytesLeft">The left source bytes.</param>
+            <param name="bytesRight">The right source bytes.</param>
+            <returns>true if left is greater than or equal to right; otherwise, false.</returns>
+        </member>
+        <member name="M:DevLib.Net.Bitwise.LessEqual(System.Byte[],System.Byte[])">
+            <summary>
+            Less or Equal operator.
+            </summary>
+            <param name="bytesLeft">The left source bytes.</param>
+            <param name="bytesRight">The right source bytes.</param>
+            <returns>true if left is less than or equal to right; otherwise, false.</returns>
+        </member>
+        <member name="M:DevLib.Net.Bitwise.GetBitMask(System.Int32,System.Int32)">
+            <summary>
+            Gets the bit mask.
+            </summary>
+            <param name="sizeOfBuffer">The size of buffer.</param>
+            <param name="bitLength">The length of the bit.</param>
+            <returns>The bit mask bytes.</returns>
+        </member>
+        <member name="M:DevLib.Net.Bitwise.GetBitMaskLength(System.Byte[])">
+            <summary>
+            Gets the length of the bit mask.
+            </summary>
+            <param name="bytes">The bit mask bytes.</param>
+            <returns>The the length of the bit mask.</returns>
+        </member>
+        <member name="M:DevLib.Net.Bitwise.Increment(System.Byte[])">
+            <summary>
+            Increments the specified bytes.
+            </summary>
+            <param name="bytes">The source bytes.</param>
+            <returns>New bytes.</returns>
+        </member>
+        <member name="T:DevLib.Net.Sockets.AsyncSocketErrorCodeEnum">
+            <summary>
+            Enum AsyncSocketErrorCode.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketErrorCodeEnum.UnspecifiedException">
+            <summary>
+            Represents UnspecifiedException.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketErrorCodeEnum.TcpServerStartException">
+            <summary>
+            Represents TcpServerStartException.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketErrorCodeEnum.TcpServerStopException">
+            <summary>
+            Represents TcpServerStopException.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketErrorCodeEnum.TcpServerAcceptSessionException">
+            <summary>
+            Represents TcpServerAcceptSessionException.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketErrorCodeEnum.TcpServerCloseSessionException">
+            <summary>
+            Represents TcpServerCloseSessionException.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketErrorCodeEnum.TcpServerSendException">
+            <summary>
+            Represents TcpServerSendException.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketErrorCodeEnum.TcpServerReceiveException">
+            <summary>
+            Represents TcpServerReceiveException.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketErrorCodeEnum.TcpClientStartException">
+            <summary>
+            Represents TcpClientStartException.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketErrorCodeEnum.TcpClientStopException">
+            <summary>
+            Represents TcpClientStopException.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketErrorCodeEnum.TcpClientConnectException">
+            <summary>
+            Represents TcpClientConnectException.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketErrorCodeEnum.TcpClientDisconnectException">
+            <summary>
+            Represents TcpClientDisconnectException.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketErrorCodeEnum.TcpClientSendException">
+            <summary>
+            Represents TcpClientSendException.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketErrorCodeEnum.TcpClientReceiveException">
+            <summary>
+            Represents TcpClientReceiveException.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketErrorCodeEnum.UdpServerStartException">
+            <summary>
+            Represents UdpServerStartException.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketErrorCodeEnum.UdpServerStopException">
+            <summary>
+            Represents UdpServerStopException.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketErrorCodeEnum.UdpServerReceiveException">
+            <summary>
+            Represents UdpServerReceiveException.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketErrorCodeEnum.UdpClientStartException">
+            <summary>
+            Represents UdpClientStartException.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketErrorCodeEnum.UdpClientStopException">
+            <summary>
+            Represents UdpClientStopException.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketErrorCodeEnum.UdpClientSendException">
+            <summary>
+            Represents UdpClientSendException.
+            </summary>
+        </member>
+        <member name="T:DevLib.Net.Sockets.AsyncSocketUdpClientConstants">
+            <summary>
+            AsyncSocketUdpClient constant and default value.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketUdpClientConstants.UdpClientStartException">
+            <summary>
+            Const Field UdpClientStartException.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketUdpClientConstants.UdpClientStopException">
+            <summary>
+            Const Field UdpClientStopException.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketUdpClientConstants.UdpClientSendException">
+            <summary>
+            Const Field UdpClientSendException.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketUdpClientConstants.UdpClientStartSucceeded">
+            <summary>
+            Const Field UdpClientStartSucceeded.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketUdpClientConstants.UdpClientStopSucceeded">
+            <summary>
+            Const Field UdpClientStopSucceeded.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketUdpClientConstants.UdpClientReceiveTotalBytesStringFormat">
+            <summary>
+            Const Field UdpClientReceiveTotalBytesStringFormat.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketUdpClientConstants.ExceptionStringFormat">
+            <summary>
+            Const Field ExceptionStringFormat.
+            </summary>
+        </member>
+        <member name="T:DevLib.Net.Ftp.FtpSetup">
+            <summary>
+            Class FtpSetup.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Ftp.FtpSetup._ftpCredential">
+            <summary>
+            Field _ftpCredential.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Ftp.FtpSetup._hostName">
+            <summary>
+            Field _hostName.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpSetup.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:DevLib.Net.Ftp.FtpSetup"/> class.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpSetup.GetHashCode">
+            <summary>
+            Returns the hash code for this instance.
+            </summary>
+            <returns>A hash code for the current <see cref="T:DevLib.Net.Ftp.FtpSetup"/>.</returns>
+        </member>
+        <member name="P:DevLib.Net.Ftp.FtpSetup.FtpCredential">
+            <summary>
+            Gets the credentials used to communicate with the FTP server.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Ftp.FtpSetup.HostName">
+            <summary>
+            Gets or sets ftp host name.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Ftp.FtpSetup.UseAnonymous">
+            <summary>
+            Gets or sets a value indicating whether using anonymous logon.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Ftp.FtpSetup.UserName">
+            <summary>
+            Gets or sets ftp username.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Ftp.FtpSetup.Password">
+            <summary>
+            Gets or sets ftp password.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Ftp.FtpSetup.EnableSSL">
+            <summary>
+            Gets or sets a value indicating whether an SSL connection should be used.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Ftp.FtpSetup.KeepAlive">
+            <summary>
+            Gets or sets a value indicating whether the control connection to the FTP server is closed after the request completes.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Ftp.FtpSetup.Proxy">
+            <summary>
+            Gets or sets the proxy used to communicate with the FTP server.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Ftp.FtpSetup.ReadWriteTimeoutMilliseconds">
+            <summary>
+            Gets or sets a time-out when reading from or writing to a stream, in milliseconds.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Ftp.FtpSetup.UseBinary">
+            <summary>
+            Gets or sets a value indicating whether use binary for file transfers.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Ftp.FtpSetup.UsePassive">
+            <summary>
+            Gets or sets a value indicating whether use passive behavior of a client application's data transfer process.
+            </summary>
+        </member>
+        <member name="T:DevLib.Net.Sockets.AsyncSocketTcpServerConstants">
+            <summary>
+            AsyncSocketTcpServer constant and default value.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketTcpServerConstants.Backlog">
+            <summary>
+            The maximum length of the pending connections queue.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketTcpServerConstants.TcpServerStartException">
+            <summary>
+            Const Field TcpServerStartException.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketTcpServerConstants.TcpServerStopException">
+            <summary>
+            Const Field TcpServerStopException.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketTcpServerConstants.TcpServerAcceptSessionException">
+            <summary>
+            Const Field TcpServerAcceptSessionException.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketTcpServerConstants.TcpServerSendException">
+            <summary>
+            Const Field TcpServerSendException.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketTcpServerConstants.TcpServerReceiveException">
+            <summary>
+            Const Field TcpServerReceiveException.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketTcpServerConstants.TcpServerStartSucceeded">
+            <summary>
+            Const Field TcpServerStartSucceeded.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketTcpServerConstants.TcpServerStopSucceeded">
+            <summary>
+            Const Field TcpServerStopSucceeded.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketTcpServerConstants.TcpServerReceiveTotalBytesStringFormat">
+            <summary>
+            Const Field TcpServerReceiveTotalBytesStringFormat.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketTcpServerConstants.TcpServerSendTotalBytesStringFormat">
+            <summary>
+            Const Field TcpServerSendTotalBytesStringFormat.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketTcpServerConstants.ExceptionStringFormat">
+            <summary>
+            Const Field ExceptionStringFormat.
+            </summary>
+        </member>
+        <member name="T:DevLib.Net.NetworkResourceResult">
+            <summary>
+            NetworkResource Result.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.NetworkResourceResult.InitializeLifetimeService">
+            <summary>
+            Obtains a lifetime service object to control the lifetime policy for this instance.
+            </summary>
+            <returns>An infinite lifetime.</returns>
+        </member>
+        <member name="P:DevLib.Net.NetworkResourceResult.Succeeded">
+            <summary>
+            Gets or sets a value indicating whether network resource operation succeeded or not.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.NetworkResourceResult.Message">
+            <summary>
+            Gets or sets the message.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.NetworkResourceResult.ErrorCode">
+            <summary>
+            Gets or sets the error code.
+            </summary>
+        </member>
+        <member name="T:DevLib.Net.Sockets.AsyncSocketSessionEventArgs">
+            <summary>
+            AsyncSocketSession EventArgs.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketSessionEventArgs.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:DevLib.Net.Sockets.AsyncSocketSessionEventArgs"/> class.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketSessionEventArgs.#ctor(System.Int32,System.Net.IPEndPoint)">
+            <summary>
+            Initializes a new instance of the <see cref="T:DevLib.Net.Sockets.AsyncSocketSessionEventArgs"/> class.
+            </summary>
+            <param name="sessionId">Connected client Id.</param>
+            <param name="sessionIPEndPoint">Connected client IPEndPoint.</param>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketSessionEventArgs.#ctor(System.Int32,System.Net.IPEndPoint,System.Byte[],System.Int32,System.Int32,System.Object)">
+            <summary>
+            Initializes a new instance of the <see cref="T:DevLib.Net.Sockets.AsyncSocketSessionEventArgs"/> class.
+            </summary>
+            <param name="sessionId">Connected client Id.</param>
+            <param name="sessionIPEndPoint">Connected client IPEndPoint.</param>
+            <param name="buffer">Buffer to use with an asynchronous socket method.</param>
+            <param name="bytesTransferred">The number of bytes transferred in the socket operation.</param>
+            <param name="offset">Offset of the buffer.</param>
+            <param name="userToken">A user or application object associated with this asynchronous socket operation.</param>
+        </member>
+        <member name="P:DevLib.Net.Sockets.AsyncSocketSessionEventArgs.SessionId">
+            <summary>
+            Gets connected client Id.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Sockets.AsyncSocketSessionEventArgs.SessionIPEndPoint">
+            <summary>
+            Gets Session IPEndPoint.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Sockets.AsyncSocketSessionEventArgs.UserToken">
+            <summary>
+            Gets a user or application object associated with this asynchronous socket operation.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Sockets.AsyncSocketSessionEventArgs.BytesTransferred">
+            <summary>
+            Gets the number of bytes transferred in the socket operation.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Sockets.AsyncSocketSessionEventArgs.Offset">
+            <summary>
+            Gets the offset of the buffer.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Sockets.AsyncSocketSessionEventArgs.Buffer">
+            <summary>
+            Gets the data buffer to use with an asynchronous socket method.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Sockets.AsyncSocketSessionEventArgs.DataTransferred">
+            <summary>
+            Gets transferred data.
+            </summary>
+        </member>
+        <member name="T:DevLib.Net.NetUtilities">
+            <summary>
+            Net Utilities.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.NetUtilities.PortRandom">
+            <summary>
+            Field PortRandom.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.NetUtilities.GetLocalIPArray">
+            <summary>
+            Get Local IP Array.
+            </summary>
+            <returns>Instance of IPAddress[].</returns>
+        </member>
+        <member name="M:DevLib.Net.NetUtilities.GetRandomPortNumber">
+            <summary>
+            Generates a random port number.
+            </summary>
+            <returns>Random port number.</returns>
+        </member>
+        <member name="T:DevLib.Net.Ftp.FtpFileParser">
+            <summary>
+            Class FtpFileParser.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Ftp.FtpFileParser.UnixSymLinkPathSeparator">
+            <summary>
+            Const Field UnixSymLinkPathSeparator.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpFileParser.GetFullDirectoryList(System.String,System.String)">
+            <summary>
+            Get Ftp full directory list.
+            </summary>
+            <param name="rawString">Source string.</param>
+            <param name="parentPath">Parent path string.</param>
+            <returns>List of FtpFileInfo, or null if path does not exist.</returns>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpFileParser.GetDirectoryList(System.String,System.String)">
+            <summary>
+            Get Ftp directory list.
+            </summary>
+            <param name="rawString">Source string.</param>
+            <param name="parentPath">Parent path string.</param>
+            <returns>List of FtpFileInfo, or null if path does not exist.</returns>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpFileParser.GetFileList(System.String,System.String)">
+            <summary>
+            Get Ftp file list.
+            </summary>
+            <param name="rawString">Source string.</param>
+            <param name="parentPath">Parent path string.</param>
+            <returns>List of FtpFileInfo, or null if path does not exist.</returns>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpFileParser.ParseWindowsStyleFtpFile(System.String)">
+            <summary>
+            Method ParseWindowsStyleFtpFile.
+            </summary>
+            <param name="rawString">Source string.</param>
+            <returns>Instance of FtpFileInfo.</returns>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpFileParser.ParseUnixStyleFtpFile(System.String)">
+            <summary>
+            Method ParseUnixStyleFtpFile.
+            </summary>
+            <param name="rawString">Source string.</param>
+            <returns>Instance of FtpFileInfo.</returns>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpFileParser.GetFtpFileStyle(System.String[])">
+            <summary>
+            Method GetFtpFileStyle.
+            </summary>
+            <param name="rawList">Source string array.</param>
+            <returns>Instance of FtpFileStyle.</returns>
+        </member>
+        <member name="M:DevLib.Net.Ftp.FtpFileParser.CutSubstringFromStringWithTrim(System.String@,System.String,System.Int32)">
+            <summary>
+            Method CutSubstringFromStringWithTrim.
+            </summary>
+            <param name="source">Source string.</param>
+            <param name="value">The string to seek.</param>
+            <param name="startIndex">The search starting position.</param>
+            <returns>A substring from source string.</returns>
+        </member>
+        <member name="T:DevLib.Net.Ftp.FtpFileParser.FtpFileStyle">
+            <summary>
+            Ftp File Style Enum.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Ftp.FtpFileParser.FtpFileStyle.WindowsStyle">
+            <summary>
+            Represents WindowsStyle.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Ftp.FtpFileParser.FtpFileStyle.UnixStyle">
+            <summary>
+            Represents UnixStyle.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Ftp.FtpFileParser.FtpFileStyle.Unknown">
+            <summary>
+            Represents Unknown.
+            </summary>
+        </member>
+        <member name="T:DevLib.Net.InternalLogger">
+            <summary>
+            Internal logger.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.InternalLogger.ExecutingAssembly">
+            <summary>
+            Field ExecutingAssembly.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.InternalLogger.GlobalDebugFlagFile">
+            <summary>
+            Field GlobalDebugFlagFile.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.InternalLogger.DebugFlagFile">
+            <summary>
+            Field DebugFlagFile.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.InternalLogger.LogFile">
+            <summary>
+            Field LogFile.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.InternalLogger.LogFileBackup">
+            <summary>
+            Field LogFileBackup.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.InternalLogger.SyncRoot">
+            <summary>
+            Field SyncRoot.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.InternalLogger.Log(System.Object[])">
+            <summary>
+            Method Log.
+            </summary>
+            <param name="objs">Diagnostic messages or objects to log.</param>
+        </member>
+        <member name="M:DevLib.Net.InternalLogger.GetStackFrameInfo(System.Int32)">
+            <summary>
+            Builds a readable representation of the stack trace.
+            </summary>
+            <param name="skipFrames">The number of frames up the stack to skip.</param>
+            <returns>A readable representation of the stack trace.</returns>
+        </member>
+        <member name="M:DevLib.Net.InternalLogger.RenderLog(System.Object[])">
+            <summary>
+            Render parameters into a string.
+            </summary>
+            <param name="objs">Diagnostic messages or objects to log.</param>
+            <returns>The rendered layout string.</returns>
+        </member>
+        <member name="M:DevLib.Net.InternalLogger.AppendToFile(System.String)">
+            <summary>
+            Append log message to the file.
+            </summary>
+            <param name="message">Log message to append.</param>
+        </member>
+        <member name="T:DevLib.Net.Sockets.AsyncSocketUdpClient">
+            <summary>
+            Async Socket Udp Client Class.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketUdpClient._disposed">
+            <summary>
+            Field _disposed.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketUdpClient._totalBytesSent">
+            <summary>
+            Counter of the total bytes sent by AsyncSocketUdpClient.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketUdpClient._clientSocket">
+            <summary>
+            The socket used to send to server.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketUdpClient._remoteIPEndPoint">
+            <summary>
+            Field _remoteIPEndPoint.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketUdpClient.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:DevLib.Net.Sockets.AsyncSocketUdpClient"/> class.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketUdpClient.#ctor(System.String,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:DevLib.Net.Sockets.AsyncSocketUdpClient"/> class.
+            </summary>
+            <param name="remoteIP">The IP address of the remote host.</param>
+            <param name="remotePort">The port number of the remote host.</param>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketUdpClient.Finalize">
+            <summary>
+            Finalizes an instance of the <see cref="T:DevLib.Net.Sockets.AsyncSocketUdpClient"/> class.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketUdpClient.SendTo(System.String,System.Int32,System.Byte[],System.Boolean)">
+            <summary>
+            Sends data synchronously to the specified endpoint.
+            </summary>
+            <param name="remoteIP">The IP address of the remote host.</param>
+            <param name="remotePort">The port number of the remote host.</param>
+            <param name="buffer">Data to send.</param>
+            <param name="throwOnError">true to throw any exception that occurs.-or- false to ignore any exception that occurs.</param>
+            <returns>true if succeeded; otherwise, false.</returns>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketUdpClient.Start(System.Boolean)">
+            <summary>
+            Establishes a socket to send to a remote host.
+            </summary>
+            <param name="throwOnError">true to throw any exception that occurs.-or- false to ignore any exception that occurs.</param>
+            <returns>true if succeeded; otherwise, false.</returns>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketUdpClient.Stop(System.Boolean)">
+            <summary>
+            Closes the socket.
+            </summary>
+            <param name="throwOnError">true to throw any exception that occurs.-or- false to ignore any exception that occurs.</param>
+            <returns>true if succeeded; otherwise, false.</returns>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketUdpClient.Send(System.Byte[],System.Object)">
+            <summary>
+            Sends data asynchronously to a specific remote host.
+            </summary>
+            <param name="buffer">Data to send.</param>
+            <param name="userToken">A user or application object associated with this asynchronous socket operation.</param>
+            <returns>true if succeeded; otherwise, false.</returns>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketUdpClient.Dispose">
+            <summary>
+            Releases all resources used by the current instance of the <see cref="T:DevLib.Net.Sockets.AsyncSocketUdpClient"/> class.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketUdpClient.Close">
+            <summary>
+            Releases all resources used by the current instance of the <see cref="T:DevLib.Net.Sockets.AsyncSocketUdpClient"/> class.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketUdpClient.Dispose(System.Boolean)">
+            <summary>
+            Releases all resources used by the current instance of the <see cref="T:DevLib.Net.Sockets.AsyncSocketUdpClient"/> class.
+            protected virtual for non-sealed class; private for sealed class.
+            </summary>
+            <param name="disposing">true to release both managed and unmanaged resources; false to release only unmanaged resources.</param>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketUdpClient.RaiseEvent(System.EventHandler{DevLib.Net.Sockets.AsyncSocketSessionEventArgs},DevLib.Net.Sockets.AsyncSocketSessionEventArgs)">
+            <summary>
+            Method RaiseEvent.
+            </summary>
+            <param name="eventHandler">Instance of EventHandler.</param>
+            <param name="eventArgs">Instance of AsyncSocketSessionEventArgs.</param>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketUdpClient.RaiseEvent(System.EventHandler{DevLib.Net.Sockets.AsyncSocketErrorEventArgs},DevLib.Net.Sockets.AsyncSocketErrorEventArgs)">
+            <summary>
+            Method RaiseEvent.
+            </summary>
+            <param name="eventHandler">Instance of EventHandler.</param>
+            <param name="eventArgs">Instance of AsyncSocketErrorEventArgs.</param>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketUdpClient.RaiseEvent(System.EventHandler)">
+            <summary>
+            Method RaiseEvent.
+            </summary>
+            <param name="eventHandler">Instance of EventHandler.</param>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketUdpClient.SendSocketAsyncEventArgsCompleted(System.Object,System.Net.Sockets.SocketAsyncEventArgs)">
+            <summary>
+            Method SendSocketAsyncEventArgsCompleted.
+            </summary>
+            <param name="sender">Event sender.</param>
+            <param name="sendSocketAsyncEventArgs">Instance of SocketAsyncEventArgs.</param>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketUdpClient.ProcessSend(System.Net.Sockets.SocketAsyncEventArgs)">
+            <summary>
+            Method ProcessSend.
+            </summary>
+            <param name="sendSocketAsyncEventArgs">Instance of SocketAsyncEventArgs.</param>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketUdpClient.CloseClientSocket">
+            <summary>
+            Method CloseClientSocket.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketUdpClient.CheckDisposed">
+            <summary>
+            Method CheckDisposed.
+            </summary>
+        </member>
+        <member name="E:DevLib.Net.Sockets.AsyncSocketUdpClient.DataSent">
+            <summary>
+            Client Data Sent Event.
+            </summary>
+        </member>
+        <member name="E:DevLib.Net.Sockets.AsyncSocketUdpClient.ErrorOccurred">
+            <summary>
+            Error Occurred Event.
+            </summary>
+        </member>
+        <member name="E:DevLib.Net.Sockets.AsyncSocketUdpClient.Started">
+            <summary>
+            Client Started Event.
+            </summary>
+        </member>
+        <member name="E:DevLib.Net.Sockets.AsyncSocketUdpClient.Stopped">
+            <summary>
+            Client Stopped Event.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Sockets.AsyncSocketUdpClient.TotalBytesSent">
+            <summary>
+            Gets total bytes sent by AsyncSocketUdpClient.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Sockets.AsyncSocketUdpClient.RemoteIP">
+            <summary>
+            Gets or sets the IP address of the remote host.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Sockets.AsyncSocketUdpClient.RemotePort">
+            <summary>
+            Gets or sets the port number of the remote host.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Sockets.AsyncSocketUdpClient.SessionId">
+            <summary>
+            Gets current session Id.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Sockets.AsyncSocketUdpClient.IsRunning">
+            <summary>
+            Gets a value indicating whether udp client is working or not.
+            </summary>
+        </member>
+        <member name="T:DevLib.Net.NetworkResource">
+            <summary>
+            Network resource.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.NetworkResource.ConnectRemote(System.String)">
+            <summary>
+            Connects to the remote UNC.
+            </summary>
+            <param name="remoteUNC">The remote UNC path.</param>
+            <returns>NetworkResource result.</returns>
+        </member>
+        <member name="M:DevLib.Net.NetworkResource.ConnectRemote(System.String,System.String,System.String)">
+            <summary>
+            Connects to the remote UNC.
+            </summary>
+            <param name="remoteUNC">The remote UNC path.</param>
+            <param name="username">The username.</param>
+            <param name="password">The password.</param>
+            <returns>NetworkResource result.</returns>
+        </member>
+        <member name="M:DevLib.Net.NetworkResource.ConnectRemote(System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            Connects to the remote UNC.
+            </summary>
+            <param name="remoteUNC">The remote UNC path.</param>
+            <param name="username">The username.</param>
+            <param name="password">The password.</param>
+            <param name="promptUser">true to prompt user; otherwise, false.</param>
+            <returns>NetworkResource result.</returns>
+        </member>
+        <member name="M:DevLib.Net.NetworkResource.DisconnectRemote(System.String)">
+            <summary>
+            Disconnects the remote.
+            </summary>
+            <param name="remoteUNC">The remote UNC path.</param>
+            <returns>NetworkResource result.</returns>
+        </member>
+        <member name="T:DevLib.Net.Sockets.AsyncSocketTcpClient">
+            <summary>
+            Async Socket Tcp Client Class.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketTcpClient._disposed">
+            <summary>
+            Field _disposed.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketTcpClient._totalBytesReceived">
+            <summary>
+            Counter of the total bytes received by AsyncSocketTcpClient.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketTcpClient._totalBytesSent">
+            <summary>
+            Counter of the total bytes sent by AsyncSocketTcpClient.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketTcpClient._clientSocket">
+            <summary>
+            The socket used to connect to server.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketTcpClient._connectSocketAsyncEventArgs">
+            <summary>
+            Field _connectSocketAsyncEventArgs.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketTcpClient._receiveSocketAsyncEventArgs">
+            <summary>
+            Field _receiveSocketAsyncEventArgs.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpClient.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:DevLib.Net.Sockets.AsyncSocketTcpClient"/> class.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpClient.#ctor(System.String,System.Int32,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:DevLib.Net.Sockets.AsyncSocketTcpClient"/> class.
+            </summary>
+            <param name="remoteIP">The IP address of the remote host.</param>
+            <param name="remotePort">The port number of the remote host.</param>
+            <param name="bufferSize">Buffer size to use with receive data.</param>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpClient.Finalize">
+            <summary>
+            Finalizes an instance of the <see cref="T:DevLib.Net.Sockets.AsyncSocketTcpClient"/> class.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpClient.Start(System.Boolean)">
+            <summary>
+            Establishes a connection to a remote host.
+            </summary>
+            <param name="throwOnError">true to throw any exception that occurs.-or- false to ignore any exception that occurs.</param>
+            <returns>true if succeeded; otherwise, false.</returns>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpClient.Stop(System.Boolean)">
+            <summary>
+            Closes the socket connection.
+            </summary>
+            <param name="throwOnError">true to throw any exception that occurs.-or- false to ignore any exception that occurs.</param>
+            <returns>true if succeeded; otherwise, false.</returns>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpClient.Send(System.Byte[],System.Object)">
+            <summary>
+            Sends data asynchronously to a connected socket.
+            </summary>
+            <param name="buffer">Data to send.</param>
+            <param name="userToken">A user or application object associated with this asynchronous socket operation.</param>
+            <returns>true if succeeded; otherwise, false.</returns>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpClient.Dispose">
+            <summary>
+            Releases all resources used by the current instance of the <see cref="T:DevLib.Net.Sockets.AsyncSocketTcpClient"/> class.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpClient.Close">
+            <summary>
+            Releases all resources used by the current instance of the <see cref="T:DevLib.Net.Sockets.AsyncSocketTcpClient"/> class.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpClient.Dispose(System.Boolean)">
+            <summary>
+            Releases all resources used by the current instance of the <see cref="T:DevLib.Net.Sockets.AsyncSocketTcpClient"/> class.
+            protected virtual for non-sealed class; private for sealed class.
+            </summary>
+            <param name="disposing">true to release both managed and unmanaged resources; false to release only unmanaged resources.</param>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpClient.RaiseEvent(System.EventHandler{DevLib.Net.Sockets.AsyncSocketSessionEventArgs},DevLib.Net.Sockets.AsyncSocketSessionEventArgs)">
+            <summary>
+            Method RaiseEvent.
+            </summary>
+            <param name="eventHandler">Instance of EventHandler.</param>
+            <param name="eventArgs">Instance of AsyncSocketSessionEventArgs.</param>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpClient.RaiseEvent(System.EventHandler{DevLib.Net.Sockets.AsyncSocketErrorEventArgs},DevLib.Net.Sockets.AsyncSocketErrorEventArgs)">
+            <summary>
+            Method RaiseEvent.
+            </summary>
+            <param name="eventHandler">Instance of EventHandler.</param>
+            <param name="eventArgs">Instance of AsyncSocketErrorEventArgs.</param>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpClient.RaiseEvent(System.EventHandler)">
+            <summary>
+            Method RaiseEvent.
+            </summary>
+            <param name="eventHandler">Instance of EventHandler.</param>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpClient.ConnectSocketAsyncEventArgsCompleted(System.Object,System.Net.Sockets.SocketAsyncEventArgs)">
+            <summary>
+            Method ConnectSocketAsyncEventArgsCompleted.
+            </summary>
+            <param name="sender">Event sender.</param>
+            <param name="connectSocketAsyncEventArgs">Instance of SocketAsyncEventArgs.</param>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpClient.ProcessConnect">
+            <summary>
+            Method ProcessConnect.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpClient.ProcessReceive(System.Net.Sockets.SocketAsyncEventArgs)">
+            <summary>
+            Method ProcessReceive.
+            </summary>
+            <param name="receiveSocketAsyncEventArgs">Instance of SocketAsyncEventArgs.</param>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpClient.ReceiveSocketAsyncEventArgsCompleted(System.Object,System.Net.Sockets.SocketAsyncEventArgs)">
+            <summary>
+            Method ReceiveSocketAsyncEventArgsCompleted.
+            </summary>
+            <param name="sender">Event sender.</param>
+            <param name="receiveSocketAsyncEventArgs">Instance of SocketAsyncEventArgs.</param>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpClient.SendSocketAsyncEventArgsCompleted(System.Object,System.Net.Sockets.SocketAsyncEventArgs)">
+            <summary>
+            Method SendSocketAsyncEventArgsCompleted.
+            </summary>
+            <param name="sender">Event sender.</param>
+            <param name="sendSocketAsyncEventArgs">Instance of SocketAsyncEventArgs.</param>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpClient.ProcessSend(System.Net.Sockets.SocketAsyncEventArgs)">
+            <summary>
+            Method ProcessSend.
+            </summary>
+            <param name="sendSocketAsyncEventArgs">Instance of SocketAsyncEventArgs.</param>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpClient.CloseClientSocket">
+            <summary>
+            Method CloseClientSocket.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpClient.CloseConnectSocketAsyncEventArgs">
+            <summary>
+            Method CloseConnectSocketAsyncEventArgs.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpClient.CloseReceiveSocketAsyncEventArgs">
+            <summary>
+            Method CloseReceiveSocketAsyncEventArgs.
+            </summary>
+        </member>
+        <member name="M:DevLib.Net.Sockets.AsyncSocketTcpClient.CheckDisposed">
+            <summary>
+            Method CheckDisposed.
+            </summary>
+        </member>
+        <member name="E:DevLib.Net.Sockets.AsyncSocketTcpClient.Connected">
+            <summary>
+            Client Connected Event.
+            </summary>
+        </member>
+        <member name="E:DevLib.Net.Sockets.AsyncSocketTcpClient.Disconnected">
+            <summary>
+            Client Disconnected Event.
+            </summary>
+        </member>
+        <member name="E:DevLib.Net.Sockets.AsyncSocketTcpClient.DataReceived">
+            <summary>
+            Client Data Received Event.
+            </summary>
+        </member>
+        <member name="E:DevLib.Net.Sockets.AsyncSocketTcpClient.DataSent">
+            <summary>
+            Client Data Sent Event.
+            </summary>
+        </member>
+        <member name="E:DevLib.Net.Sockets.AsyncSocketTcpClient.ErrorOccurred">
+            <summary>
+            Error Occurred Event.
+            </summary>
+        </member>
+        <member name="E:DevLib.Net.Sockets.AsyncSocketTcpClient.Started">
+            <summary>
+            Client Started Event.
+            </summary>
+        </member>
+        <member name="E:DevLib.Net.Sockets.AsyncSocketTcpClient.Stopped">
+            <summary>
+            Client Stopped Event.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Sockets.AsyncSocketTcpClient.BufferSize">
+            <summary>
+            Gets or sets buffer size to use with receive data.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Sockets.AsyncSocketTcpClient.TotalBytesReceived">
+            <summary>
+            Gets total bytes received by AsyncSocketTcpClient.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Sockets.AsyncSocketTcpClient.TotalBytesSent">
+            <summary>
+            Gets total bytes sent by AsyncSocketTcpClient.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Sockets.AsyncSocketTcpClient.SessionId">
+            <summary>
+            Gets current session Id.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Sockets.AsyncSocketTcpClient.RemoteIP">
+            <summary>
+            Gets or sets the IP address of the remote host.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Sockets.AsyncSocketTcpClient.RemotePort">
+            <summary>
+            Gets or sets the port number of the remote host.
+            </summary>
+        </member>
+        <member name="P:DevLib.Net.Sockets.AsyncSocketTcpClient.IsConnected">
+            <summary>
+            Gets a value indicating whether AsyncSocketTcpClient is working or not.
+            </summary>
+        </member>
+        <member name="T:DevLib.Net.Sockets.AsyncSocketUdpServerConstants">
+            <summary>
+            AsyncSocketUdpServer constant and default value.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketUdpServerConstants.UdpServerStartException">
+            <summary>
+            Const Field UdpServerStartException.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketUdpServerConstants.UdpServerStopException">
+            <summary>
+            Const Field UdpServerStopException.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketUdpServerConstants.UdpServerReceiveException">
+            <summary>
+            Const Field UdpServerReceiveException.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketUdpServerConstants.UdpServerStartSucceeded">
+            <summary>
+            Const Field UdpServerStartSucceeded.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketUdpServerConstants.UdpServerStopSucceeded">
+            <summary>
+            Const Field UdpServerStopSucceeded.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketUdpServerConstants.UdpServerReceiveTotalBytesStringFormat">
+            <summary>
+            Const Field UdpServerReceiveTotalBytesStringFormat.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketUdpServerConstants.ExceptionStringFormat">
+            <summary>
+            Const Field ExceptionStringFormat.
+            </summary>
+        </member>
+        <member name="T:DevLib.Net.Sockets.AsyncSocketTcpClientConstants">
+            <summary>
+            AsyncSocketTcpClient constant and default value.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketTcpClientConstants.TcpClientStartException">
+            <summary>
+            Const Field TcpClientStartException.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketTcpClientConstants.TcpClientStopException">
+            <summary>
+            Const Field TcpClientStopException.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketTcpClientConstants.TcpClientConnectException">
+            <summary>
+            Const Field TcpClientConnectException.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketTcpClientConstants.TcpClientSendException">
+            <summary>
+            Const Field TcpClientSendException.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketTcpClientConstants.TcpClientReceiveException">
+            <summary>
+            Const Field TcpClientReceiveException.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketTcpClientConstants.TcpClientStartSucceeded">
+            <summary>
+            Const Field TcpClientStartSucceeded.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketTcpClientConstants.TcpClientStopSucceeded">
+            <summary>
+            Const Field TcpClientStopSucceeded.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketTcpClientConstants.TcpClientReceiveTotalBytesStringFormat">
+            <summary>
+            Const Field TcpClientReceiveTotalBytesStringFormat.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketTcpClientConstants.TcpClientSendTotalBytesStringFormat">
+            <summary>
+            Const Field TcpClientSendTotalBytesStringFormat.
+            </summary>
+        </member>
+        <member name="F:DevLib.Net.Sockets.AsyncSocketTcpClientConstants.ExceptionStringFormat">
+            <summary>
+            Const Field ExceptionStringFormat.
+            </summary>
+        </member>
+    </members>
+</doc>

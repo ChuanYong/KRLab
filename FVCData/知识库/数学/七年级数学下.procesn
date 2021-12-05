@@ -1,0 +1,298 @@
+<Project>
+  <Type>procesn</Type>
+  <Name>七年级数学下.流程</Name>
+  <ProjectItem type="KRLab.DiagramEditor.NetworkDiagram.Diagram" assembly="KRLab.DiagramEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Name>平移几何体的步骤</Name>
+    <KnowledgeNet>SemanticNet</KnowledgeNet>
+    <Entities>
+      <Entity type="SemanticNode">
+        <Name>平移几何体的步骤</Name>
+        <Location left="317" top="483" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>流程</Name>
+        <Location left="485" top="286" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>开始</Name>
+        <Location left="655" top="286" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>结束</Name>
+        <Location left="592" top="471" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>使用对象</Name>
+        <Location left="352" top="186" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>图形</Name>
+        <Location left="270" top="275" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>输出</Name>
+        <Location left="442" top="523" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>连接一对对应点</Name>
+        <Location left="811" top="286" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>找原图形的代表点</Name>
+        <Location left="991" top="286" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>图形的转折点</Name>
+        <Location left="991" top="136" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>经过代表点做a的若干条平行线b</Name>
+        <Location left="1147" top="286" />
+        <Size width="78" height="63" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>线段a</Name>
+        <Location left="877" top="136" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>顺序连接这些点得到新图形</Name>
+        <Location left="979" top="494" />
+        <Size width="78" height="61" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>取每条平行线上与线段a等长的点</Name>
+        <Location left="1178" top="494" />
+        <Size width="85" height="56" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>流程结束</Name>
+        <Location left="779" top="512" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>新图形</Name>
+        <Location left="517" top="630" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>对应点</Name>
+        <Location left="719" top="181" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>题干已知</Name>
+        <Location left="719" top="75" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="SN_REL" first="1" second="4">
+        <Label>ATT</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>531</X>
+          <Y>225</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>427</X>
+          <Y>214</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ATT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="4" second="5">
+        <Label>VAL</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>VAL</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="1" second="6">
+        <Label>ATT</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>514</X>
+          <Y>384</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>454</X>
+          <Y>459</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ATT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="1" second="2">
+        <Label>ATT</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ATT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="1" second="3">
+        <Label>ATT</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>524</X>
+          <Y>361</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ATT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="2" second="7">
+        <Label>VAL</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>VAL</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="7" second="8">
+        <Label>ANTE</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ANTE</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="8" second="9">
+        <Label>ASSOC</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ASSOC</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="7" second="11">
+        <Label>得到</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>RESULT</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="8" second="10">
+        <Label>ANTE</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ANTE</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="10" second="13">
+        <Label>ANTE</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ANTE</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="13" second="12">
+        <Label>ANTE</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ANTE</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="12" second="14">
+        <Label>ANTE</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ANTE</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="3" second="14">
+        <Label>VAL</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>VAL</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="6" second="15">
+        <Label>VAL</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>VAL</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="0" second="1">
+        <Label>KTYPE</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>495</X>
+          <Y>363</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>KTYPE</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="7" second="16">
+        <Label>GRANU</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>826</X>
+          <Y>261</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>GRANU</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="16" second="17">
+        <Label>CONFM</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>CONFM</SNRelationshipType>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+  <ProjectItem type="KRLab.DiagramEditor.NetworkDiagram.Diagram" assembly="KRLab.DiagramEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Name>代入消元法</Name>
+    <KnowledgeNet>SemanticNet</KnowledgeNet>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="KRLab.DiagramEditor.NetworkDiagram.Diagram" assembly="KRLab.DiagramEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Name>加减消元法</Name>
+    <KnowledgeNet>SemanticNet</KnowledgeNet>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="KRLab.DiagramEditor.NetworkDiagram.Diagram" assembly="KRLab.DiagramEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Name>三元一次方程组的解法</Name>
+    <KnowledgeNet>SemanticNet</KnowledgeNet>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="KRLab.DiagramEditor.NetworkDiagram.Diagram" assembly="KRLab.DiagramEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Name>直方图</Name>
+    <KnowledgeNet>SemanticNet</KnowledgeNet>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+</Project>

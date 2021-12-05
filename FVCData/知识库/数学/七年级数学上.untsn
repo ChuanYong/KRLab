@@ -1,0 +1,135 @@
+<Project>
+  <Type>untsn</Type>
+  <Name>单位</Name>
+  <ProjectItem type="KRLab.DiagramEditor.NetworkDiagram.Diagram" assembly="KRLab.DiagramEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Name>角度单位</Name>
+    <KnowledgeNet>SemanticNet</KnowledgeNet>
+    <Entities>
+      <Entity type="SemanticNode">
+        <Name>单位</Name>
+        <Location left="744" top="249" />
+        <Size width="94" height="67" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>角度单位</Name>
+        <Location left="470" top="249" />
+        <Size width="55" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>度</Name>
+        <Location left="350" top="440" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>分</Name>
+        <Location left="496" top="455" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>秒</Name>
+        <Location left="649" top="429" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>°</Name>
+        <Location left="320" top="578" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>′</Name>
+        <Location left="499" top="595" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>″</Name>
+        <Location left="666" top="587" />
+        <Size width="50" height="50" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="SN_REL" first="2" second="3">
+        <Label>EQUL</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>EQUL</SNRelationshipType>
+        <StartMultiplicity>1</StartMultiplicity>
+        <EndMultiplicity>60</EndMultiplicity>
+      </Relationship>
+      <Relationship type="SN_REL" first="3" second="4">
+        <Label>EQUL</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>EQUL</SNRelationshipType>
+        <StartMultiplicity>1</StartMultiplicity>
+        <EndMultiplicity>60</EndMultiplicity>
+      </Relationship>
+      <Relationship type="SN_REL" first="2" second="5">
+        <Label>SYMB</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>SYMB</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="3" second="6">
+        <Label>SYMB</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>SYMB</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="4" second="7">
+        <Label>SYMB</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>SYMB</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="1" second="0">
+        <Label>IS</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>IS</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="2" second="1">
+        <Label>ISA</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>484</X>
+          <Y>324</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ISA</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="3" second="1">
+        <Label>ISA</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ISA</SNRelationshipType>
+      </Relationship>
+      <Relationship type="SN_REL" first="4" second="1">
+        <Label>ISA</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>584</X>
+          <Y>293</Y>
+        </BendPoint>
+        <Direction>Unidirectional</Direction>
+        <SNRelationshipType>ISA</SNRelationshipType>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+</Project>

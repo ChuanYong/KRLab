@@ -1,0 +1,58 @@
+<Project>
+  <Type>phensn</Type>
+  <Name>九年级数学上.现象知识</Name>
+  <ProjectItem type="KRLab.DiagramEditor.NetworkDiagram.Diagram" assembly="KRLab.DiagramEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Name>21.3实际问题1</Name>
+    <KnowledgeNet>SemanticNet</KnowledgeNet>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="KRLab.DiagramEditor.NetworkDiagram.Diagram" assembly="KRLab.DiagramEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Name>21.3实际问题2</Name>
+    <KnowledgeNet>SemanticNet</KnowledgeNet>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="KRLab.DiagramEditor.NetworkDiagram.Diagram" assembly="KRLab.DiagramEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Name>21.3实际问题3</Name>
+    <KnowledgeNet>SemanticNet</KnowledgeNet>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="KRLab.DiagramEditor.NetworkDiagram.Diagram" assembly="KRLab.DiagramEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Name>22.2练习1</Name>
+    <KnowledgeNet>SemanticNet</KnowledgeNet>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="KRLab.DiagramEditor.NetworkDiagram.Diagram" assembly="KRLab.DiagramEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Name>22.3实际问题1</Name>
+    <KnowledgeNet>SemanticNet</KnowledgeNet>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="KRLab.DiagramEditor.NetworkDiagram.Diagram" assembly="KRLab.DiagramEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Name>22.3实际问题2</Name>
+    <KnowledgeNet>SemanticNet</KnowledgeNet>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="KRLab.DiagramEditor.NetworkDiagram.Diagram" assembly="KRLab.DiagramEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Name>24.3练习</Name>
+    <KnowledgeNet>SemanticNet</KnowledgeNet>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="KRLab.DiagramEditor.NetworkDiagram.Diagram" assembly="KRLab.DiagramEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Name>25.2练习1</Name>
+    <KnowledgeNet>SemanticNet</KnowledgeNet>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+  <ProjectItem type="KRLab.DiagramEditor.NetworkDiagram.Diagram" assembly="KRLab.DiagramEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Name>25.3练习1</Name>
+    <KnowledgeNet>SemanticNet</KnowledgeNet>
+    <Entities />
+    <Relationships />
+  </ProjectItem>
+</Project>

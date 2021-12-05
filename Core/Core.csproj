@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8CF10505-3C2E-4E45-AB90-21613237B412}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KRLab.Core</RootNamespace>
+    <AssemblyName>KRLab.Core</AssemblyName>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Analytics">
+      <HintPath>Libraries\Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Analytics.Real">
+      <HintPath>Libraries\Analytics.Real.dll</HintPath>
+    </Reference>
+    <Reference Include="Exversion">
+      <HintPath>Libraries\Exversion.dll</HintPath>
+    </Reference>
+    <Reference Include="FParsec, Version=1.0.0.0, Culture=neutral, PublicKeyToken=40ccfc0a09edbb5d, processorArchitecture=MSIL">
+      <HintPath>..\packages\FParsec.1.0.3\lib\net40-client\FParsec.dll</HintPath>
+    </Reference>
+    <Reference Include="FParsecCS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=40ccfc0a09edbb5d, processorArchitecture=MSIL">
+      <HintPath>..\packages\FParsec.1.0.3\lib\net40-client\FParsecCS.dll</HintPath>
+    </Reference>
+    <Reference Include="FSharp.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\FSharp.Core.4.6.0\lib\net45\FSharp.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Mathematics">
+      <HintPath>Libraries\Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="MathNet.Numerics, Version=4.9.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MathNet.Numerics.4.9.1\lib\net40\MathNet.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="MathNet.Numerics.FSharp, Version=4.9.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MathNet.Numerics.FSharp.4.9.1\lib\net45\MathNet.Numerics.FSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="MathNet.Symbolics, Version=0.21.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MathNet.Symbolics.0.21.0\lib\net45\MathNet.Symbolics.dll</HintPath>
+    </Reference>
+    <Reference Include="NRTE">
+      <HintPath>Libraries\NRTE.dll</HintPath>
+    </Reference>
+    <Reference Include="Physics">
+      <HintPath>Libraries\Physics.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WpfMath">
+      <HintPath>Libraries\WpfMath.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Algorithms\BellmanFordShortestPaths.cs" />
+    <Compile Include="Algorithms\BinarySearchTreeSorter.cs" />
+    <Compile Include="Algorithms\BinaryTreeIterativeWalker.cs" />
+    <Compile Include="Algorithms\BinaryTreeRecursiveWalker.cs" />
+    <Compile Include="Algorithms\BinomialCoefficients.cs" />
+    <Compile Include="Algorithms\BipartiteColoring.cs" />
+    <Compile Include="Algorithms\BreadthFirstSearcher.cs" />
+    <Compile Include="Algorithms\BreadthFirstShortestConnection.cs" />
+    <Compile Include="Algorithms\BreadthFirstShortestPaths.cs" />
+    <Compile Include="Algorithms\BubbleSorter.cs" />
+    <Compile Include="Algorithms\BucketSorter.cs" />
+    <Compile Include="Algorithms\CatalanNumbers.cs" />
+    <Compile Include="Algorithms\CombSorter.cs" />
+    <Compile Include="Algorithms\Comparers.cs" />
+    <Compile Include="Algorithms\ConnectedComponents.cs" />
+    <Compile Include="Algorithms\CountingSorter.cs" />
+    <Compile Include="Algorithms\CyclesDetector.cs" />
+    <Compile Include="Algorithms\CycleSorter.cs" />
+    <Compile Include="Algorithms\DepthFirstSearcher.cs" />
+    <Compile Include="Algorithms\DijkstraAllPairsShortestPaths.cs" />
+    <Compile Include="Algorithms\DijkstraShortestPaths.cs" />
+    <Compile Include="Algorithms\EditDistance.cs" />
+    <Compile Include="Algorithms\EditDistanceCostsMap.cs" />
+    <Compile Include="Algorithms\GnomeSorter.cs" />
+    <Compile Include="Algorithms\GraphPath.cs" />
+    <Compile Include="Algorithms\GreatestCommonDivisor.cs" />
+    <Compile Include="Algorithms\HeapSorter.cs" />
+    <Compile Include="Algorithms\Helpers.cs" />
+    <Compile Include="Algorithms\InsertionSorter.cs" />
+    <Compile Include="Algorithms\LSDRadixSorter.cs" />
+    <Compile Include="Algorithms\MergeSorter.cs" />
+    <Compile Include="Algorithms\Multimap.cs" />
+    <Compile Include="Algorithms\OddEvenSorter.cs" />
+    <Compile Include="Algorithms\Permutations.cs" />
+    <Compile Include="Algorithms\PigeonHoleSorter.cs" />
+    <Compile Include="Algorithms\QuickSorter.cs" />
+    <Compile Include="Algorithms\SelectionSorter.cs" />
+    <Compile Include="Algorithms\ShellSorter.cs" />
+    <Compile Include="Algorithms\SieveOfEratosthenes.cs" />
+    <Compile Include="Algorithms\TopologicalSorter.cs" />
+    <Compile Include="Algorithms\Tuple.cs" />
+    <Compile Include="BadSyntaxException.cs" />
+    <Compile Include="BasicBayesianNode.cs" />
+    <Compile Include="BasicConceptualNode.cs" />
+    <Compile Include="BasicSemanticNode.cs" />
+    <Compile Include="BayesianNetTemplate.cs" />
+    <Compile Include="BayesianRelation.cs" />
+    <Compile Include="BDI\Action.cs" />
+    <Compile Include="BDI\agent.cs" />
+    <Compile Include="BDI\BaseBDI.cs" />
+    <Compile Include="BDI\BDIEgine.cs" />
+    <Compile Include="BDI\BDIExample.cs" />
+    <Compile Include="BDI\Belief.cs" />
+    <Compile Include="BDI\Binding.cs" />
+    <Compile Include="BDI\BindingValue.cs" />
+    <Compile Include="BDI\common.cs" />
+    <Compile Include="BDI\Condition.cs" />
+    <Compile Include="BDI\Desire.cs" />
+    <Compile Include="BDI\Expression.cs" />
+    <Compile Include="BDI\Goal.cs" />
+    <Compile Include="BDI\Intention.cs" />
+    <Compile Include="BDI\is.cs" />
+    <Compile Include="BDI\Ka.cs" />
+    <Compile Include="BDI\KaBodyElement.cs" />
+    <Compile Include="BDI\KaRuntimeFrame.cs" />
+    <Compile Include="BDI\MAManager.cs" />
+    <Compile Include="BDI\RealValue.cs" />
+    <Compile Include="BDI\Relation.cs" />
+    <Compile Include="BDI\Soak.cs" />
+    <Compile Include="BDI\StrValue.cs" />
+    <Compile Include="BDI\SymbolTable.cs" />
+    <Compile Include="BDI\utils.cs" />
+    <Compile Include="BDI\Value.cs" />
+    <Compile Include="BDI\Variable.cs" />
+    <Compile Include="BDI\WmRelation.cs" />
+    <Compile Include="BDI\WmTable.cs" />
+    <Compile Include="BNet\BayesianNet.cs" />
+    <Compile Include="BNet\BNEdge.cs" />
+    <Compile Include="BNet\BNetParser.cs" />
+    <Compile Include="BNet\BNNode.cs" />
+    <Compile Include="BNet\IBayesNet.cs" />
+    <Compile Include="BNet\IBayesNode.cs" />
+    <Compile Include="CMap\ConceptMap.cs" />
+    <Compile Include="CMap\ConceptVertex.cs" />
+    <Compile Include="CMap\electricity_magnetism_concept_map.cs" />
+    <Compile Include="CMRelationship.cs" />
+    <Compile Include="CompositeNode.cs" />
+    <Compile Include="ConceptMapTemplate.cs" />
+    <Compile Include="CPMember.cs" />
+    <Compile Include="DataStuctures\TwoUniqueKeyMap.cs" />
+    <Compile Include="FuzzyEngine\BaseMembershipFunction.cs" />
+    <Compile Include="FuzzyEngine\BellMembershipFunction.cs" />
+    <Compile Include="FuzzyEngine\CoGDefuzzification.cs" />
+    <Compile Include="FuzzyEngine\CompositeMembershipFunction.cs" />
+    <Compile Include="FuzzyEngine\Conclusion.cs" />
+    <Compile Include="FuzzyEngine\ErrorMessages.cs" />
+    <Compile Include="FuzzyEngine\FSM.cs" />
+    <Compile Include="FuzzyEngine\FuzzyEngine.cs" />
+    <Compile Include="FuzzyEngine\FuzzyEngineFactory.cs" />
+    <Compile Include="FuzzyEngine\FuzzyRule.cs" />
+    <Compile Include="FuzzyEngine\FuzzyRuleClause.cs" />
+    <Compile Include="FuzzyEngine\FuzzyRuleCollection.cs" />
+    <Compile Include="FuzzyEngine\FuzzyRuleCondition.cs" />
+    <Compile Include="FuzzyEngine\FuzzyRuleConditionConjunction.cs" />
+    <Compile Include="FuzzyEngine\FuzzyRuleEvaluator.cs" />
+    <Compile Include="FuzzyEngine\FuzzyRuleExtensions.cs" />
+    <Compile Include="FuzzyEngine\FuzzyRuleToken.cs" />
+    <Compile Include="FuzzyEngine\FuzzyRuleTokenType.cs" />
+    <Compile Include="FuzzyEngine\GaussianMembershipFunction.cs" />
+    <Compile Include="FuzzyEngine\IDefuzzification.cs" />
+    <Compile Include="FuzzyEngine\IEnumerableExtensions.cs" />
+    <Compile Include="FuzzyEngine\IFuzzyEngine.cs" />
+    <Compile Include="FuzzyEngine\IFuzzyEngineFactory.cs" />
+    <Compile Include="FuzzyEngine\IFuzzyRuleEvaluator.cs" />
+    <Compile Include="FuzzyEngine\IFuzzyRuleToken.cs" />
+    <Compile Include="FuzzyEngine\IMembershipFunction.cs" />
+    <Compile Include="FuzzyEngine\LinguisticVariable.cs" />
+    <Compile Include="FuzzyEngine\MembershipFunctionCollection.cs" />
+    <Compile Include="FuzzyEngine\MoMDefuzzification.cs" />
+    <Compile Include="FuzzyEngine\ObjectExtensions.cs" />
+    <Compile Include="FuzzyEngine\Premise.cs" />
+    <Compile Include="FuzzyEngine\RectangleMembershipFunction.cs" />
+    <Compile Include="FuzzyEngine\Rule.cs" />
+    <Compile Include="FuzzyEngine\SShapedMembershipFunction.cs" />
+    <Compile Include="FuzzyEngine\State.cs" />
+    <Compile Include="FuzzyEngine\Transition.cs" />
+    <Compile Include="FuzzyEngine\TrapezoidCoGDefuzzification.cs" />
+    <Compile Include="FuzzyEngine\TrapezoidMembershipFunction.cs" />
+    <Compile Include="FuzzyEngine\TriangleMembershipFunction.cs" />
+    <Compile Include="FuzzyEngine\ZShapedMembershipFunction.cs" />
+    <Compile Include="KnowledgeNet.cs" />
+    <Compile Include="Member.cs" />
+    <Compile Include="MemberType.cs" />
+    <Compile Include="NameMember.cs" />
+    <Compile Include="NetType.cs" />
+    <Compile Include="DataStuctures\ArrayList.cs" />
+    <Compile Include="DataStuctures\AugmentedBinarySearchTree.cs" />
+    <Compile Include="DataStuctures\AVLTree.cs" />
+    <Compile Include="DataStuctures\AVLTreeNode.cs" />
+    <Compile Include="DataStuctures\BinaryMaxHeap.cs" />
+    <Compile Include="DataStuctures\BinaryMinHeap.cs" />
+    <Compile Include="DataStuctures\BinarySearchTree.cs" />
+    <Compile Include="DataStuctures\BinarySearchTreeMap.cs" />
+    <Compile Include="DataStuctures\BinarySearchTreeMapNode.cs" />
+    <Compile Include="DataStuctures\BinarySearchTreeNode.cs" />
+    <Compile Include="DataStuctures\BinomialMinHeap.cs" />
+    <Compile Include="DataStuctures\ChainedHashTable.cs" />
+    <Compile Include="DataStuctures\Comparers.cs" />
+    <Compile Include="DataStuctures\CuckooHashTable.cs" />
+    <Compile Include="DataStuctures\DirectedWeightedSparseGraph.cs" />
+    <Compile Include="DataStuctures\DLinkedList.cs" />
+    <Compile Include="DataStuctures\DLinkedList_KeyValue.cs" />
+    <Compile Include="DataStuctures\Helpers.cs" />
+    <Compile Include="DataStuctures\IBinarySearchTree.cs" />
+    <Compile Include="DataStuctures\IEdge.cs" />
+    <Compile Include="DataStuctures\IGraph.cs" />
+    <Compile Include="DataStuctures\IMaxHeap.cs" />
+    <Compile Include="DataStuctures\IMinHeap.cs" />
+    <Compile Include="DataStuctures\IWeightedGraph.cs" />
+    <Compile Include="DataStuctures\KeyedPriorityQueue.cs" />
+    <Compile Include="DataStuctures\MinPriorityQueue.cs" />
+    <Compile Include="DataStuctures\OpenAddressingHashTable.cs" />
+    <Compile Include="DataStuctures\OpenScatterHashTable.cs" />
+    <Compile Include="DataStuctures\PrimeHashingFamily.cs" />
+    <Compile Include="DataStuctures\PrimesList.cs" />
+    <Compile Include="DataStuctures\Queue.cs" />
+    <Compile Include="DataStuctures\RedBlackTree.cs" />
+    <Compile Include="DataStuctures\RedBlackTreeMap.cs" />
+    <Compile Include="DataStuctures\RedBlackTreeMapNode.cs" />
+    <Compile Include="DataStuctures\RedBlackTreeNode.cs" />
+    <Compile Include="DataStuctures\SkipList.cs" />
+    <Compile Include="DataStuctures\SkipListNode.cs" />
+    <Compile Include="DataStuctures\SLinkedList.cs" />
+    <Compile Include="DataStuctures\SortedDictionary.cs" />
+    <Compile Include="DataStuctures\SortedList.cs" />
+    <Compile Include="DataStuctures\Stack.cs" />
+    <Compile Include="DataStuctures\TreeDrawer.cs" />
+    <Compile Include="DataStuctures\Trie.cs" />
+    <Compile Include="DataStuctures\TrieMap.cs" />
+    <Compile Include="DataStuctures\TrieMapNode.cs" />
+    <Compile Include="DataStuctures\TrieNode.cs" />
+    <Compile Include="DataStuctures\UniversalHashingFamily.cs" />
+    <Compile Include="DataStuctures\Weight.cs" />
+    <Compile Include="DataStuctures\WeightedEdge.cs" />
+    <Compile Include="NodeBase.cs" />
+    <Compile Include="NodeRelationship.cs" />
+    <Compile Include="EntityType.cs" />
+    <Compile Include="ProjectType.cs" />
+    <Compile Include="RelationshipEventArgs.cs" />
+    <Compile Include="RelationshipType.cs" />
+    <Compile Include="ProjectItemEventArgs.cs" />
+    <Compile Include="Element.cs" />
+    <Compile Include="IModifiable.cs" />
+    <Compile Include="IProjectItem.cs" />
+    <Compile Include="ISerializableElement.cs" />
+    <Compile Include="SNet\ACTParseInfo.cs" />
+    <Compile Include="SNet\AlgorithmCallParseInfo.cs" />
+    <Compile Include="SNet\ARGVParseInfo.cs" />
+    <Compile Include="SNet\ASSGNParseInfo.cs" />
+    <Compile Include="SNet\EXPRParseInfo.cs" />
+    <Compile Include="SNet\ATTParseInfo.cs" />
+    <Compile Include="SNet\COMPParseInfo.cs" />
+    <Compile Include="SNet\ConceptKRModuleSNet.cs" />
+    <Compile Include="SNet\CONDParseInfo.cs" />
+    <Compile Include="SNet\DomainTopicKRModuleSNet.cs" />
+    <Compile Include="SNet\EquationKRModuleSNet.cs" />
+    <Compile Include="SNet\FormulaElement.cs" />
+    <Compile Include="SNet\InstrumentKRModuleSNet.cs" />
+    <Compile Include="SNet\ISParseInfo.cs" />
+    <Compile Include="SNet\KCNames.cs" />
+    <Compile Include="SNet\KRModuleSNet.cs" />
+    <Compile Include="SNet\KRSNetProject.cs" />
+    <Compile Include="SNet\ExperimentKRModuleSNet.cs" />
+    <Compile Include="SNet\OAV.cs" />
+    <Compile Include="SNet\EquElem.cs" />
+    <Compile Include="SNet\ParseInfo.cs" />
+    <Compile Include="SNet\PhenomenaKRModuleSNet.cs" />
+    <Compile Include="SNet\ProceduralKRModuleSNet.cs" />
+    <Compile Include="SNet\ConclusionKRModuleSNet.cs" />
+    <Compile Include="SNet\ProblemParseInfo.cs" />
+    <Compile Include="SNet\ProcStepParseInfo.cs" />
+    <Compile Include="SNet\SemanticNetParser.cs" />
+    <Compile Include="SNet\SingleRelParseInfo.cs" />
+    <Compile Include="SNet\SemanticNet.cs" />
+    <Compile Include="SemanticNetTemplate.cs" />
+    <Compile Include="SerializeEventArgs.cs" />
+    <Compile Include="EntityEventArgs.cs" />
+    <Compile Include="RelationshipException.cs" />
+    <Compile Include="Direction.cs" />
+    <Compile Include="ReservedNameException.cs" />
+    <Compile Include="Project.cs" />
+    <Compile Include="CommentRelation.cs" />
+    <Compile Include="AccessModifier.cs" />
+    <Compile Include="Comment.cs" />
+    <Compile Include="IEntity.cs" />
+    <Compile Include="SNet\SNEdge.cs" />
+    <Compile Include="SNet\SNetProject.cs" />
+    <Compile Include="SNet\SNNode.cs" />
+    <Compile Include="SNet\SNRational.cs" />
+    <Compile Include="SNet\StoryKRModuleSNet.cs" />
+    <Compile Include="SNet\UnitKRModuleSNet.cs" />
+    <Compile Include="SNet\SNRelationshipType.cs" />
+    <Compile Include="SNRelationship.cs" />
+    <Compile Include="Relationship.cs" />
+    <Compile Include="StateMember.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TextProcessor\ITSText.csproj">
+      <Project>{7c5d3646-4914-4712-beac-53bf69fae4f8}</Project>
+      <Name>ITSText</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Translations\Translations.csproj">
+      <Project>{b3b7d798-3d52-47f0-b1a7-a91bc5fe184f}</Project>
+      <Name>Translations</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utilities\Utilities.csproj">
+      <Project>{3b6646fb-e7ca-43aa-b882-78577217708c}</Project>
+      <Name>Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

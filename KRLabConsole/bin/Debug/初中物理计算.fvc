@@ -1,0 +1,2093 @@
+<Project>
+  <Name>初中物理计算</Name>
+  <ProjectItem type="KRLab.DiagramEditor.NetworkDiagram.Diagram" assembly="KRLab.DiagramEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Name>运动与速度</Name>
+    <KnowledgeNet>SemanticNet</KnowledgeNet>
+    <Entities>
+      <Entity type="SemanticNode">
+        <Name>小车</Name>
+        <Location left="382" top="206" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>卡车</Name>
+        <Location left="246" top="206" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>v1</Name>
+        <Location left="1914" top="158" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>加速度</Name>
+        <Location left="1275" top="220" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>速度</Name>
+        <Location left="676" top="74" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>运动距离</Name>
+        <Location left="1504" top="37" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>初始速度</Name>
+        <Location left="700" top="284" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>末了速度</Name>
+        <Location left="838" top="376" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>v0</Name>
+        <Location left="656" top="492" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>v1</Name>
+        <Location left="935" top="492" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>a</Name>
+        <Location left="1620" top="498" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>s</Name>
+        <Location left="1539" top="239" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>物理量</Name>
+        <Location left="1040" top="37" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>=</Name>
+        <Location left="1165" top="598" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>-</Name>
+        <Location left="920" top="669" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>t</Name>
+        <Location left="1194" top="416" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>*</Name>
+        <Location left="1376" top="598" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>v0</Name>
+        <Location left="2297" top="236" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>^</Name>
+        <Location left="2083" top="267" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>^</Name>
+        <Location left="2270" top="398" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>-</Name>
+        <Location left="2083" top="519" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>=</Name>
+        <Location left="1861" top="553" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>*</Name>
+        <Location left="1750" top="334" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>2</Name>
+        <Location left="1750" top="173" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>常量</Name>
+        <Location left="1750" top="10" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>2</Name>
+        <Location left="2179" top="114" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>2</Name>
+        <Location left="2445" top="78" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>重物</Name>
+        <Location left="1214" top="905" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>直线行驶</Name>
+        <Location left="119" top="601" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>自由落体运动</Name>
+        <Location left="656" top="920" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>直线运动</Name>
+        <Location left="294" top="834" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>加速度</Name>
+        <Location left="153" top="1157" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>9.8</Name>
+        <Location left="15" top="1382" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>y</Name>
+        <Location left="167" top="1367" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>运动方向</Name>
+        <Location left="10" top="706" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>水平方向</Name>
+        <Location left="153" top="751" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>x</Name>
+        <Location left="10" top="942" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>情节</Name>
+        <Location left="441" top="994" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>故事</Name>
+        <Location left="193" top="29" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>故事</Name>
+        <Location left="323" top="1221" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>上抛运动</Name>
+        <Location left="719" top="1119" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>情节</Name>
+        <Location left="10" top="332" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>直线运动</Name>
+        <Location left="10" top="168" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>火车</Name>
+        <Location left="416" top="642" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>铁轨上面</Name>
+        <Location left="616" top="621" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>公路上面</Name>
+        <Location left="294" top="410" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>铁球</Name>
+        <Location left="1064" top="1176" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>木球</Name>
+        <Location left="935" top="892" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>情节</Name>
+        <Location left="638" top="1277" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>直线运动</Name>
+        <Location left="638" top="1422" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>加速度</Name>
+        <Location left="458" top="1422" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>-9.8</Name>
+        <Location left="441" top="1590" />
+        <Size width="120" height="90" />
+        <Collapsed>True</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>物体</Name>
+        <Location left="1412" top="1008" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>空中</Name>
+        <Location left="1056" top="1008" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>车辆</Name>
+        <Location left="455" top="29" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>时间</Name>
+        <Location left="1064" top="220" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>时间</Name>
+        <Location left="1412" top="1590" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>运动距离</Name>
+        <Location left="1649" top="1543" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>概念</Name>
+        <Location left="1076" top="1349" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>s</Name>
+        <Location left="1053" top="2603" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>m</Name>
+        <Location left="548" top="2684" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>米</Name>
+        <Location left="583" top="1979" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>秒</Name>
+        <Location left="1076" top="2362" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>/</Name>
+        <Location left="1398" top="2113" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>/</Name>
+        <Location left="825" top="2151" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>加速度</Name>
+        <Location left="1252" top="1590" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>速度</Name>
+        <Location left="867" top="1590" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>位移</Name>
+        <Location left="1076" top="1590" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>矢量</Name>
+        <Location left="1045" top="1824" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>方向</Name>
+        <Location left="1076" top="1979" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>大小</Name>
+        <Location left="1264" top="1979" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>标量</Name>
+        <Location left="1514" top="1758" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>单位</Name>
+        <Location left="1090" top="2786" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>基本单位</Name>
+        <Location left="774" top="2409" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>复合单位</Name>
+        <Location left="1361" top="2409" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>米/秒</Name>
+        <Location left="1175" top="2208" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>米/秒^2</Name>
+        <Location left="1649" top="2129" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>直线运动</Name>
+        <Location left="1180" top="741" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="SN_ATT" first="6" second="8">
+        <Label>符号</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>661</X>
+          <Y>325</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>615</X>
+          <Y>557</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ATT" first="7" second="9">
+        <Label>符号</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>987</X>
+          <Y>412</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>1007</X>
+          <Y>460</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ATT" first="3" second="10">
+        <Label>符号</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>1548</X>
+          <Y>563</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ATT" first="5" second="11">
+        <Label>符号</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1603</X>
+          <Y>152</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>1613</X>
+          <Y>214</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ACT" first="14" second="9">
+        <Label>执行关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="SN_ACT" first="16" second="10">
+        <Label>执行关系</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1540</X>
+          <Y>650</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ACT" first="16" second="15">
+        <Label>执行关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1410</X>
+          <Y>572</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>1242</X>
+          <Y>558</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_RESULT" first="13" second="14">
+        <Label>left</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1119</X>
+          <Y>640</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_RESULT" first="13" second="16">
+        <Label>right</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1310</X>
+          <Y>629</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>1342</X>
+          <Y>630</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_RESULT" first="21" second="20">
+        <Label>right</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="SN_ACT" first="22" second="23">
+        <Label>执行关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="SN_ACT" first="22" second="11">
+        <Label>执行关系</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="SN_ACT" first="22" second="10">
+        <Label>执行关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1777</X>
+          <Y>449</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_RESULT" first="21" second="22">
+        <Label>left</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1813</X>
+          <Y>606</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ISA" first="23" second="24">
+        <Label>实例关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>1819</X>
+          <Y>125</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ACTED" first="18" second="2">
+        <Label>被执行关系</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1990</X>
+          <Y>291</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ACT" first="18" second="25">
+        <Label>执行关系</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>2239</X>
+          <Y>314</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ACTED" first="19" second="17">
+        <Label>被执行关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="SN_ACT" first="19" second="26">
+        <Label>执行关系</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>2420</X>
+          <Y>444</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>2509</X>
+          <Y>195</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ATT" first="31" second="32">
+        <Label>大小</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>68</X>
+          <Y>1181</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>74</X>
+          <Y>1357</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ATT" first="31" second="33">
+        <Label>方向</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>212</X>
+          <Y>1287</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>244</X>
+          <Y>1320</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ATT" first="34" second="35">
+        <Label>是</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>167</X>
+          <Y>866</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ATT" first="35" second="36">
+        <Label>表示为</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="SN_ATT" first="37" second="31">
+        <Label>隐含条件</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>376</X>
+          <Y>1021</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ATT" first="41" second="34">
+        <Label>隐含条件</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>35</X>
+          <Y>448</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ISA" first="46" second="27">
+        <Label>一只</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1213</X>
+          <Y>1218</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>1308</X>
+          <Y>1032</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ISA" first="47" second="27">
+        <Label>一只</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1130</X>
+          <Y>915</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>1185</X>
+          <Y>915</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ATT" first="37" second="29">
+        <Label>内容</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>558</X>
+          <Y>969</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>620</X>
+          <Y>955</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ATT" first="48" second="40">
+        <Label>内容</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>821</X>
+          <Y>1327</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ATT" first="48" second="50">
+        <Label>隐含条件</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>610</X>
+          <Y>1355</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>528</X>
+          <Y>1396</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ATT" first="50" second="51">
+        <Label>大小</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="SN_ATT" first="50" second="33">
+        <Label>方向</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="SN_TIME" first="48" second="37">
+        <Label>时间关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>614</X>
+          <Y>1238</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>512</X>
+          <Y>1126</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_IS" first="27" second="52">
+        <Label>是</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1383</X>
+          <Y>944</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>1450</X>
+          <Y>969</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_DEPT" first="48" second="49">
+        <Label>知识点</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="SN_DEPT" first="37" second="30">
+        <Label>知识点</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="SN_ISP" first="48" second="39">
+        <Label>部分关系</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="SN_ISP" first="37" second="39">
+        <Label>部分关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>471</X>
+          <Y>1112</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ISP" first="41" second="38">
+        <Label>部分关系</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>173</X>
+          <Y>375</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>173</X>
+          <Y>156</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_DEPT" first="41" second="42">
+        <Label>知识点</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>42</X>
+          <Y>283</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ATT" first="41" second="28">
+        <Label>内容</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>140</X>
+          <Y>576</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ACT" first="28" second="1">
+        <Label>沿</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>186</X>
+          <Y>519</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>260</X>
+          <Y>326</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ACT" first="28" second="0">
+        <Label>沿</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>330</X>
+          <Y>626</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>478</X>
+          <Y>326</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ACT" first="28" second="43">
+        <Label>沿</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>322</X>
+          <Y>663</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>496</X>
+          <Y>760</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ISA" first="1" second="54">
+        <Label>是</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>461</X>
+          <Y>144</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ISA" first="0" second="54">
+        <Label>是</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>494</X>
+          <Y>181</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ISA" first="43" second="54">
+        <Label>是</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>509</X>
+          <Y>612</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>553</X>
+          <Y>145</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ACT" first="29" second="47">
+        <Label>做</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="SN_ACT" first="29" second="46">
+        <Label>做</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>827</X>
+          <Y>985</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>1028</X>
+          <Y>1188</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ACT" first="40" second="46">
+        <Label>做</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>865</X>
+          <Y>1227</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ACT" first="40" second="47">
+        <Label>做</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>752</X>
+          <Y>1054</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ATT" first="1" second="45">
+        <Label>地点</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>309</X>
+          <Y>322</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ATT" first="0" second="45">
+        <Label>地点</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="SN_ATT" first="43" second="44">
+        <Label>地点</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="SN_ATT" first="46" second="53">
+        <Label>地点</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="SN_ATT" first="47" second="53">
+        <Label>地点</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1101</X>
+          <Y>939</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>1126</X>
+          <Y>983</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_IS" first="7" second="4">
+        <Label>是关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>845</X>
+          <Y>143</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_IS" first="6" second="4">
+        <Label>是关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>705</X>
+          <Y>191</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ATT" first="55" second="15">
+        <Label>符号</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="SN_IS" first="66" second="58">
+        <Label>是关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>1089</X>
+          <Y>1464</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_IS" first="67" second="58">
+        <Label>是关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>1150</X>
+          <Y>1469</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_IS" first="65" second="58">
+        <Label>是关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>1188</X>
+          <Y>1464</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_IS" first="56" second="58">
+        <Label>是关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>1295</X>
+          <Y>1421</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_IS" first="57" second="58">
+        <Label>是关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>1264</X>
+          <Y>1381</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_IS" first="66" second="68">
+        <Label>是关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>1067</X>
+          <Y>1799</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_IS" first="67" second="68">
+        <Label>是关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="SN_IS" first="65" second="68">
+        <Label>是关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>1156</X>
+          <Y>1799</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_IS" first="56" second="71">
+        <Label>是关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="SN_IS" first="57" second="71">
+        <Label>是关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>1611</X>
+          <Y>1733</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ATT" first="68" second="69">
+        <Label>属性关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="SN_ATT" first="68" second="70">
+        <Label>属性关系</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1191</X>
+          <Y>1874</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ATT" first="71" second="70">
+        <Label>属性关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>1372</X>
+          <Y>1954</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_IS" first="73" second="72">
+        <Label>是关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>859</X>
+          <Y>2524</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>974</X>
+          <Y>2826</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_IS" first="74" second="72">
+        <Label>是关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>1257</X>
+          <Y>2828</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ISA" first="61" second="73">
+        <Label>实例关系</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>734</X>
+          <Y>2026</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>741</X>
+          <Y>2456</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ISA" first="62" second="73">
+        <Label>实例关系</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>919</X>
+          <Y>2480</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ATT" first="61" second="60">
+        <Label>符号</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>642</X>
+          <Y>2110</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>625</X>
+          <Y>2618</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ATT" first="62" second="59">
+        <Label>符号</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="SN_ISA" first="75" second="74">
+        <Label>实例关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="SN_RESULT" first="75" second="64">
+        <Label>=</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="SN_ACT" first="64" second="61">
+        <Label>执行关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>859</X>
+          <Y>2114</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>841</X>
+          <Y>2005</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ACTED" first="64" second="62">
+        <Label>被执行关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>905</X>
+          <Y>2267</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ISA" first="76" second="74">
+        <Label>实例关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>1542</X>
+          <Y>2461</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_RESULT" first="76" second="63">
+        <Label>=</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="SN_ACT" first="63" second="75">
+        <Label>执行关系</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>1227</X>
+          <Y>2161</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ACTED" first="63" second="62">
+        <Label>被执行关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1397</X>
+          <Y>2306</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>1221</X>
+          <Y>2404</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ATT" first="66" second="75">
+        <Label>单位</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>881</X>
+          <Y>2036</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>1190</X>
+          <Y>2143</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ATT" first="67" second="61">
+        <Label>单位</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1107</X>
+          <Y>1548</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ATT" first="57" second="61">
+        <Label>单位</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1740</X>
+          <Y>1658</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>675</X>
+          <Y>1903</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ATT" first="65" second="76">
+        <Label>单位</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1354</X>
+          <Y>1705</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>1708</X>
+          <Y>2058</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ATT" first="56" second="62">
+        <Label>单位</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>1573</X>
+          <Y>1645</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>1851</X>
+          <Y>2388</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ISA" first="25" second="24">
+        <Label>实例关系</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>2154</X>
+          <Y>144</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ISA" first="26" second="24">
+        <Label>实例关系</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>2420</X>
+          <Y>95</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>1896</X>
+          <Y>24</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ACTED" first="14" second="8">
+        <Label>被执行关系</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="SN_ACT" first="20" second="18">
+        <Label>执行关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="SN_ACTED" first="20" second="19">
+        <Label>被执行关系</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="SN_ATT" first="77" second="13">
+        <Label>计算公式</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="SN_IS" first="4" second="12">
+        <Label>是关系</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="SN_IS" first="55" second="12">
+        <Label>是关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="SN_IS" first="3" second="12">
+        <Label>是关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>1199</X>
+          <Y>116</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_IS" first="5" second="12">
+        <Label>是关系</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+  <ProjectItem type="KRLab.DiagramEditor.NetworkDiagram.Diagram" assembly="KRLab.DiagramEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Name>目录</Name>
+    <KnowledgeNet>SemanticNet</KnowledgeNet>
+    <Entities>
+      <Entity type="SemanticNode">
+        <Name>计算题</Name>
+        <Location left="468" top="54" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>力学</Name>
+        <Location left="178" top="238" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>电学</Name>
+        <Location left="630" top="414" />
+        <Size width="120" height="90" />
+        <Collapsed>True</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>热学</Name>
+        <Location left="1126" top="261" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>能量</Name>
+        <Location left="968" top="757" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>运动与速度</Name>
+        <Location left="42" top="501" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>机械与效率</Name>
+        <Location left="201" top="514" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>压强</Name>
+        <Location left="398" top="514" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>浮力</Name>
+        <Location left="346" top="260" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>电功与电热</Name>
+        <Location left="437" top="658" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>欧姆定律</Name>
+        <Location left="755" top="645" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>电功率</Name>
+        <Location left="600" top="645" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>串并联特点</Name>
+        <Location left="714" top="227" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>效率</Name>
+        <Location left="560" top="947" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>传递与转化</Name>
+        <Location left="755" top="960" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>机械功与功率</Name>
+        <Location left="984" top="974" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>热值</Name>
+        <Location left="1066" top="493" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>比热容</Name>
+        <Location left="1233" top="616" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>热机效率</Name>
+        <Location left="1346" top="436" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>直线运动</Name>
+        <Location left="30" top="798" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="SN_ISO" first="1" second="0">
+        <Label>之一关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>424</X>
+          <Y>99</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ISO" first="2" second="0">
+        <Label>之一关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>655</X>
+          <Y>267</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>510</X>
+          <Y>174</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ISO" first="4" second="0">
+        <Label>之一关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>728</X>
+          <Y>131</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ISO" first="3" second="0">
+        <Label>之一关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>649</X>
+          <Y>102</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ISO" first="5" second="1">
+        <Label>之一关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>101</X>
+          <Y>294</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ISO" first="6" second="1">
+        <Label>之一关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>184</X>
+          <Y>353</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ISO" first="7" second="1">
+        <Label>之一关系</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>375</X>
+          <Y>477</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>295</X>
+          <Y>354</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ISO" first="8" second="1">
+        <Label>之一关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>279</X>
+          <Y>152</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>272</X>
+          <Y>198</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ISO" first="9" second="2">
+        <Label>之一关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>557</X>
+          <Y>630</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>589</X>
+          <Y>443</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ISO" first="11" second="2">
+        <Label>之一关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="SN_ISO" first="10" second="2">
+        <Label>之一关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>743</X>
+          <Y>484</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ISO" first="12" second="2">
+        <Label>之一关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>802</X>
+          <Y>342</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ISO" first="13" second="4">
+        <Label>之一关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>917</X>
+          <Y>782</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ISO" first="14" second="4">
+        <Label>之一关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>813</X>
+          <Y>935</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>920</X>
+          <Y>817</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ISO" first="15" second="4">
+        <Label>之一关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="SN_ISO" first="16" second="3">
+        <Label>之一关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="SN_ISO" first="17" second="3">
+        <Label>之一关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>1226</X>
+          <Y>376</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ISO" first="18" second="3">
+        <Label>之一关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>1272</X>
+          <Y>298</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ISO" first="19" second="5">
+        <Label>之一关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+  <ProjectItem type="KRLab.DiagramEditor.NetworkDiagram.Diagram" assembly="KRLab.DiagramEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Name>机械能</Name>
+    <KnowledgeNet>SemanticNet</KnowledgeNet>
+    <Entities>
+      <Entity type="SemanticNode">
+        <Name>物理量</Name>
+        <Location left="612" top="26" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>m</Name>
+        <Location left="497" top="346" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>v</Name>
+        <Location left="187" top="229" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>g</Name>
+        <Location left="866" top="332" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>h</Name>
+        <Location left="703" top="332" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>0.5</Name>
+        <Location left="312" top="332" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>*</Name>
+        <Location left="374" top="515" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>2</Name>
+        <Location left="28" top="229" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>^</Name>
+        <Location left="53" top="384" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>+</Name>
+        <Location left="562" top="609" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>*</Name>
+        <Location left="866" top="503" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>=</Name>
+        <Location left="897" top="666" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>Et</Name>
+        <Location left="1126" top="613" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>动能</Name>
+        <Location left="100" top="26" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>Ek</Name>
+        <Location left="247" top="653" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>重力势能</Name>
+        <Location left="1013" top="254" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>Eg</Name>
+        <Location left="1034" top="414" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>机械能</Name>
+        <Location left="915" top="836" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>机械总能</Name>
+        <Location left="1185" top="321" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>重力加速度</Name>
+        <Location left="830" top="164" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>物体高度</Name>
+        <Location left="645" top="167" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>质量</Name>
+        <Location left="482" top="194" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>速度</Name>
+        <Location left="312" top="60" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="SN_ACT" first="6" second="5">
+        <Label>执行关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>394</X>
+          <Y>489</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>353</X>
+          <Y>448</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ACT" first="6" second="1">
+        <Label>执行关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>529</X>
+          <Y>461</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ACT" first="8" second="7">
+        <Label>执行关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>87</X>
+          <Y>357</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ACTED" first="8" second="2">
+        <Label>被执行关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>150</X>
+          <Y>358</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>212</X>
+          <Y>344</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ACT" first="6" second="8">
+        <Label>执行关系</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="SN_ACT" first="9" second="6">
+        <Label>执行关系</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>416</X>
+          <Y>648</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ACT" first="10" second="3">
+        <Label>执行关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="SN_ACT" first="10" second="4">
+        <Label>执行关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>878</X>
+          <Y>478</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ACT" first="10" second="1">
+        <Label>执行关系</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>828</X>
+          <Y>545</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>598</X>
+          <Y>461</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ACT" first="9" second="10">
+        <Label>执行关系</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>840</X>
+          <Y>579</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_RESULT" first="11" second="12">
+        <Label>结果关系</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="SN_RESULT" first="11" second="9">
+        <Label>结果关系</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>621</X>
+          <Y>727</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_RESULT" first="14" second="6">
+        <Label>结果关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>299</X>
+          <Y>584</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_RESULT" first="16" second="10">
+        <Label>结果关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>1014</X>
+          <Y>556</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_ATT" first="17" second="11">
+        <Label>计算公式</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="SN_ATT" first="18" second="12">
+        <Label>符号</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="SN_ATT" first="15" second="16">
+        <Label>符号</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="SN_ATT" first="19" second="3">
+        <Label>符号</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="SN_ATT" first="20" second="4">
+        <Label>符号</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="SN_ATT" first="21" second="1">
+        <Label>符号</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="SN_ATT" first="22" second="2">
+        <Label>符号</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>386</X>
+          <Y>175</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>263</X>
+          <Y>203</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_IS" first="18" second="0">
+        <Label>是关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>849</X>
+          <Y>53</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_IS" first="15" second="0">
+        <Label>是关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>802</X>
+          <Y>80</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_IS" first="19" second="0">
+        <Label>是关系</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>757</X>
+          <Y>96</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_IS" first="20" second="0">
+        <Label>是关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="SN_IS" first="21" second="0">
+        <Label>是关系</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>629</X>
+          <Y>141</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_IS" first="22" second="0">
+        <Label>是关系</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="SN_ATT" first="13" second="14">
+        <Label>符号</Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>10</X>
+          <Y>663</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="SN_IS" first="13" second="0">
+        <Label>是关系</Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>246</X>
+          <Y>41</Y>
+        </BendPoint>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+  <ProjectItem type="KRLab.DiagramEditor.NetworkDiagram.Diagram" assembly="KRLab.DiagramEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <Name>单位</Name>
+    <KnowledgeNet>SemanticNet</KnowledgeNet>
+    <Entities>
+      <Entity type="SemanticNode">
+        <Name>概念</Name>
+        <Location left="1096" top="1369" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+      <Entity type="SemanticNode">
+        <Name>概念</Name>
+        <Location left="1096" top="1369" />
+        <Size width="120" height="90" />
+        <Collapsed>False</Collapsed>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+</Project>

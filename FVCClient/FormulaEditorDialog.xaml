@@ -1,0 +1,16 @@
+﻿<Window x:Class="FVCClient.FormulaEditorDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FVCTutor"
+        mc:Ignorable="d"
+        Title="Formula Editor" Height="450" Width="800">
+    <Grid>
+        <TextBox Name="FormulaInputBox"  FontSize="20" FontStyle="Normal" Margin="10,10,10,120" AcceptsReturn="True" TextWrapping="Wrap"/> 
+        <!--<Label Content="公式输入方法：&#13;a*b表示a乘以b，a/b表示a除以b，a^x表示a的x次幂，&#13;log{x}(y)表示对数以x为底y为指数。" 
+               FontSize="20" HorizontalAlignment="Left" Margin="10,10,10,30" VerticalAlignment="Bottom" />-->
+        <Button Content="Ok" Name="OkBtn" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,160,40" Width="100" Height="30" Click="OnFormulaInput"/>
+        <Button Content="Cancel" Name="CancelBtn" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,20,40" Width="100" Height="30" Click="OnFormulaCancel"/>
+    </Grid> 
+</Window>

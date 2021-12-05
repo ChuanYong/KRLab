@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{22D4167E-3BEA-4EC3-B7E0-90746FCB9827}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ITS</RootNamespace>
+    <AssemblyName>ITS</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Analytics, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Analytics_Physics_dll\Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Analytics.Real, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Analytics_Physics_dll\Analytics.Real.dll</HintPath>
+    </Reference>
+    <Reference Include="Exversion, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Analytics_Physics_dll\Exversion.dll</HintPath>
+    </Reference>
+    <Reference Include="FParsec, Version=1.0.0.0, Culture=neutral, PublicKeyToken=40ccfc0a09edbb5d, processorArchitecture=MSIL">
+      <HintPath>..\packages\FParsec.1.0.3\lib\net40-client\FParsec.dll</HintPath>
+    </Reference>
+    <Reference Include="FParsecCS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=40ccfc0a09edbb5d, processorArchitecture=MSIL">
+      <HintPath>..\packages\FParsec.1.0.3\lib\net40-client\FParsecCS.dll</HintPath>
+    </Reference>
+    <Reference Include="FSharp.Core, Version=4.4.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\FSharp.Core.4.3.3\lib\net45\FSharp.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Mathematics, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Analytics_Physics_dll\Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="MathNet.Numerics, Version=4.9.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MathNet.Numerics.4.9.1\lib\net40\MathNet.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="MathNet.Symbolics, Version=0.20.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MathNet.Symbolics.0.20.0\lib\net45\MathNet.Symbolics.dll</HintPath>
+    </Reference>
+    <Reference Include="NRTE, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Analytics_Physics_dll\NRTE.dll</HintPath>
+    </Reference>
+    <Reference Include="Physics, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Analytics_Physics_dll\Physics.dll</HintPath>
+    </Reference>
+    <Reference Include="Physics.Measurement">
+      <HintPath>bin\Analytics_Physics_dll\Physics.Measurement.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpDX.4.2.0\lib\net45\SharpDX.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Immutable, Version=1.2.5.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Collections.Immutable.1.7.1\lib\net461\System.Collections.Immutable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WpfMath, Version=0.9.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\WpfMath.0.9.0\lib\net452\WpfMath.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClientSystem.cs" />
+    <Compile Include="DomainModule\ConceptTopicModule.cs" />
+    <Compile Include="DomainModule\ConclusionTopicModule.cs" />
+    <Compile Include="DomainModule\DomainTopicModule.cs" />
+    <Compile Include="DomainModule\DrawPicture.cs" />
+    <Compile Include="DomainModule\Equation.cs" />
+    <Compile Include="DomainModule\EquationTopicModule.cs" />
+    <Compile Include="DomainModule\EquProceduralStep.cs" />
+    <Compile Include="DomainModule\ExperimentTopicModule.cs" />
+    <Compile Include="DomainModule\InstrumentKRModule.cs" />
+    <Compile Include="DomainModule\InstrumentTopicModule.cs" />
+    <Compile Include="DomainModule\KnowledgeTopic.cs" />
+    <Compile Include="DomainModule\KOS.cs" />
+    <Compile Include="DomainModule\EquTerms.cs" />
+    <Compile Include="DomainModule\LoadSound.cs" />
+    <Compile Include="DomainModule\PhenomenaKRModule.cs" />
+    <Compile Include="DomainModule\PhenomenaTopicModule.cs" />
+    <Compile Include="DomainModule\ProceduralKRModule.cs" />
+    <Compile Include="DomainModule\ProceduralStep.cs" />
+    <Compile Include="DomainModule\ProceduralTopicModule.cs" />
+    <Compile Include="DomainModule\TopicModule.cs" />
+    <Compile Include="DomainModule\UnitTopicModule.cs" />
+    <Compile Include="FormulaParser.cs" />
+    <Compile Include="MaterialModule\ProceduralAnswer.cs" />
+    <Compile Include="MaterialModule\Answer.cs" />
+    <Compile Include="MaterialModule\DrawingAnswer.cs" />
+    <Compile Include="MaterialModule\InstrumentPQAFactory.cs" />
+    <Compile Include="MaterialModule\Question.cs" />
+    <Compile Include="MaterialModule\TextAnswer.cs" />
+    <Compile Include="StudentModule\KnowledgeTopicRecord.cs" />
+    <Compile Include="MaterialModule\PhenomenaPQAFactory.cs" />
+    <Compile Include="MaterialModule\ProceduralPQAFactory.cs" />
+    <Compile Include="StudentModule\Chapter.cs" />
+    <Compile Include="DomainModule\ChapterItem.cs" />
+    <Compile Include="DomainModule\ConceptKRModule.cs" />
+    <Compile Include="StudentModule\CourseDictionary.cs" />
+    <Compile Include="DomainModule\ExperimentKRModule.cs" />
+    <Compile Include="DomainModule\KRModule.cs" />
+    <Compile Include="DomainModule\ConclusionKRModule.cs" />
+    <Compile Include="DomainModule\EquationKRModule.cs" />
+    <Compile Include="StudentModule\FuzzyEvaluation.cs" />
+    <Compile Include="StudentModule\Section.cs" />
+    <Compile Include="DomainModule\UnitKRModule.cs" />
+    <Compile Include="FileManager.cs" />
+    <Compile Include="ITSSpeech.cs" />
+    <Compile Include="StudentModule\LearningTopicRecord.cs" />
+    <Compile Include="MaterialModule\ConceptPQAFactory.cs" />
+    <Compile Include="MaterialModule\EquationPQAFactory.cs" />
+    <Compile Include="MaterialModule\ExperimentPQAFactory.cs" />
+    <Compile Include="MaterialModule\LevelCalculator.cs" />
+    <Compile Include="MaterialModule\ConclusionPQAFactory.cs" />
+    <Compile Include="MaterialModule\PQAFactory.cs" />
+    <Compile Include="MaterialModule\QAPair.cs" />
+    <Compile Include="MaterialModule\DomainTopicPQAFactory.cs" />
+    <Compile Include="MaterialModule\UnitPQAFactory.cs" />
+    <Compile Include="ITSState.cs" />
+    <Compile Include="DomainModule\LearningTopic.cs" />
+    <Compile Include="DomainModule\CourseTypeNames.cs" />
+    <Compile Include="TutorModule\TeachingScheme.cs" />
+    <Compile Include="ITSEngine.cs" />
+    <Compile Include="DomainModule\ConceptMaker.cs" />
+    <Compile Include="MaterialModule\ConceptQAMaker.cs" />
+    <Compile Include="DomainModule\DomainTopicKRModule.cs" />
+    <Compile Include="DomainModule\EquationMaker.cs" />
+    <Compile Include="DomainModule\Formula.cs" />
+    <Compile Include="MaterialModule\PhysCalcuQAMaker.cs" />
+    <Compile Include="DomainModule\PhysicalQuantity.cs" />
+    <Compile Include="MaterialModule\PQA.cs" />
+    <Compile Include="MaterialModule\Problem.cs" />
+    <Compile Include="DomainModule\Story.cs" />
+    <Compile Include="DomainModule\Storyline.cs" />
+    <Compile Include="DomainModule\StoryMaker.cs" />
+    <Compile Include="DomainModule\Variable.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StudentModule\Ability.cs" />
+    <Compile Include="StudentModule\Coverage.cs" />
+    <Compile Include="StudentModule\LearningHistory.cs" />
+    <Compile Include="StudentModule\LearningStragety.cs" />
+    <Compile Include="StudentModule\Performance.cs" />
+    <Compile Include="StudentModule\Student.cs" />
+    <Compile Include="StudentModule\CognitiveState.cs" />
+    <Compile Include="StudentModule\TopicResult.cs" />
+    <Compile Include="TutorModule\PerformanceEvalution.cs" />
+    <Compile Include="TutorModule\Suitability.cs" />
+    <Compile Include="TutorModule\CourseFactory.cs" />
+    <Compile Include="TutorModule\TeachingState.cs" />
+    <Compile Include="TutorModule\TutoringStrategy.cs" />
+    <Compile Include="TutorModule\VirtualTutor.cs" />
+    <Compile Include="TutorModule\Tutoring.cs" />
+    <Compile Include="UserLog.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Project>{8cf10505-3c2e-4e45-ab90-21613237b412}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MathSolvers\MathSolvers.csproj">
+      <Project>{d44c5905-51af-4f34-94a9-61a71588d807}</Project>
+      <Name>MathSolvers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SymbolicMath\SymbolicMath.csproj">
+      <Project>{1b4a722b-5383-49e8-a148-697b17940c4c}</Project>
+      <Name>SymbolicMath</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TextProcessor\ITSText.csproj">
+      <Project>{7c5d3646-4914-4712-beac-53bf69fae4f8}</Project>
+      <Name>ITSText</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Translations\Translations.csproj">
+      <Project>{b3b7d798-3d52-47f0-b1a7-a91bc5fe184f}</Project>
+      <Name>Translations</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utilities\Utilities.csproj">
+      <Project>{3b6646fb-e7ca-43aa-b882-78577217708c}</Project>
+      <Name>Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

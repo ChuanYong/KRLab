@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F52A7548-E60A-485B-9C84-1D2871416DB7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KRLab.DiagramEditor</RootNamespace>
+    <AssemblyName>KRLab.DiagramEditor</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbsoluteMouseEventArgs.cs" />
+    <Compile Include="DiagramWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DiagramWindow.Designer.cs">
+      <DependentUpon>DiagramWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NetworkDiagram\ChevronMode.cs" />
+    <Compile Include="NetworkDiagram\Connections\Connection.cs" />
+    <Compile Include="NetworkDiagram\Connections\Arrowhead.cs" />
+    <Compile Include="NetworkDiagram\Connections\BendPointEventArgs.cs" />
+    <Compile Include="NetworkDiagram\Connections\LineOrientation.cs" />
+    <Compile Include="NetworkDiagram\Connections\SNConnection.cs" />
+    <Compile Include="NetworkDiagram\Connections\CommentConnection.cs" />
+    <Compile Include="NetworkDiagram\ContextMenus\SNISAContextMenu.cs" />
+    <Compile Include="NetworkDiagram\ContextMenus\BlankContextMenu.cs" />
+    <Compile Include="NetworkDiagram\ContextMenus\DiagramContextMenu.cs" />
+    <Compile Include="NetworkDiagram\ConnectionCreator.cs" />
+    <Compile Include="NetworkDiagram\ClearTypeMode.cs" />
+    <Compile Include="NetworkDiagram\Dialogs\RelationTypeNode.cs" />
+    <Compile Include="NetworkDiagram\Dialogs\SNConnectionDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NetworkDiagram\Dialogs\SNConnectionDialog.Designer.cs" />
+    <Compile Include="NetworkDiagram\Dialogs\MembersDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NetworkDiagram\Dialogs\MembersDialog.designer.cs" />
+    <Compile Include="NetworkDiagram\Editors\CompositeNodeEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NetworkDiagram\Editors\CompositeNodeEditor.Designer.cs" />
+    <Compile Include="NetworkDiagram\Editors\FloatingEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NetworkDiagram\Editors\CommentEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NetworkDiagram\Editors\CommentEditor.Designer.cs">
+      <DependentUpon>CommentEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NetworkDiagram\Editors\MemberEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NetworkDiagram\Editors\MemberEditor.Designer.cs" />
+    <Compile Include="NetworkDiagram\Editors\SimpleNodeEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NetworkDiagram\Editors\SimpleNodeEditor.Designer.cs" />
+    <Compile Include="NetworkDiagram\ElementContainer.cs" />
+    <Compile Include="NetworkDiagram\DiagramDynamicMenu.cs">
+    </Compile>
+    <Compile Include="NetworkDiagram\DiagramDynamicMenu.designer.cs">
+      <DependentUpon>DiagramDynamicMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NetworkDiagram\Dialogs\EditCommentDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NetworkDiagram\Dialogs\EditCommentDialog.Designer.cs">
+      <DependentUpon>EditCommentDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NetworkDiagram\Dialogs\ListDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NetworkDiagram\Dialogs\ListDialog.Designer.cs">
+      <DependentUpon>ListDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NetworkDiagram\Dialogs\DiagramPrintDialog.cs" />
+    <Compile Include="NetworkDiagram\Dialogs\DiagramPrintDialog.Designer.cs">
+      <DependentUpon>DiagramPrintDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NetworkDiagram\Editors\BorderedTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NetworkDiagram\Editors\TypeEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NetworkDiagram\Editors\EditorWindow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GdiGraphics.cs" />
+    <Compile Include="IGraphics.cs" />
+    <Compile Include="IClipboardItem.cs" />
+    <Compile Include="EditorControlEventArgs.cs" />
+    <Compile Include="EventArgs.cs" />
+    <Compile Include="NetworkDiagram\Model.cs" />
+    <Compile Include="NetworkDiagram\Shapes\BayesianNodeShape.cs" />
+    <Compile Include="NetworkDiagram\Shapes\CompositeNodeShape.cs" />
+    <Compile Include="NetworkDiagram\Shapes\ConceptNodeShape.cs" />
+    <Compile Include="NetworkDiagram\Shapes\NodeShape.cs" />
+    <Compile Include="NetworkDiagram\Shapes\SemanticNodeShape.cs" />
+    <Compile Include="NetworkDiagram\Shapes\SimpleNodeShape.cs" />
+    <Compile Include="PopupWindow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NetworkDiagram\Editors\ItemEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NetworkDiagram\Editors\ItemEditor.Designer.cs">
+      <DependentUpon>ItemEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NetworkDiagram\ElementList.cs" />
+    <Compile Include="NetworkDiagram\ContextMenus\CommentShapeContextMenu.cs">
+    </Compile>
+    <Compile Include="NetworkDiagram\ContextMenus\ConnectionContextMenu.cs">
+    </Compile>
+    <Compile Include="ContextMenu.cs" />
+    <Compile Include="NetworkDiagram\ContextMenus\GeneralContextMenu.cs">
+    </Compile>
+    <Compile Include="Intersector.cs" />
+    <Compile Include="NetworkDiagram\ContextMenus\ShapeContextMenu.cs">
+    </Compile>
+    <Compile Include="NetworkDiagram\ContextMenus\TypeShapeContextMenu.cs">
+    </Compile>
+    <Compile Include="IEditable.cs" />
+    <Compile Include="DynamicMenu.cs">
+    </Compile>
+    <Compile Include="DocumentMovedEventArgs.cs" />
+    <Compile Include="IDocumentVisualizer.cs" />
+    <Compile Include="IDocument.cs" />
+    <Compile Include="DocumentEventArgs.cs" />
+    <Compile Include="DocumentManager.cs" />
+    <Compile Include="NetworkDiagram\MoveEventArgs.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ImageCreator.cs" />
+    <Compile Include="NetworkDiagram\Diagram.cs">
+    </Compile>
+    <Compile Include="NetworkDiagram\Connections\BendPoint.cs" />
+    <Compile Include="Clipboard.cs" />
+    <Compile Include="NetworkDiagram\Shapes\ResizeEventArgs.cs" />
+    <Compile Include="ToolStripSimplifiedRenderer.cs">
+    </Compile>
+    <Compile Include="NetworkDiagram\DiagramElement.cs" />
+    <Compile Include="NetworkDiagram\Icons.cs" />
+    <Compile Include="MonoHelper.cs" />
+    <Compile Include="NetworkDiagram\Shapes\Shape.cs" />
+    <Compile Include="Style.cs" />
+    <Compile Include="IPrintable.cs" />
+    <Compile Include="OrderedList.cs" />
+    <Compile Include="Canvas.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Canvas.Designer.cs">
+      <DependentUpon>Canvas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NetworkDiagram\Shapes\CommentShape.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Canvas.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Canvas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NetworkDiagram\Dialogs\SNConnectionDialog.resx" />
+    <EmbeddedResource Include="NetworkDiagram\Dialogs\EditCommentDialog.resx">
+      <DependentUpon>EditCommentDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NetworkDiagram\Dialogs\ListDialog.resx">
+      <DependentUpon>ListDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NetworkDiagram\Dialogs\DiagramPrintDialog.resx">
+      <DependentUpon>DiagramPrintDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NetworkDiagram\Dialogs\MembersDialog.resx" />
+    <EmbeddedResource Include="NetworkDiagram\Editors\CommentEditor.resx">
+      <DependentUpon>CommentEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NetworkDiagram\Editors\CompositeNodeEditor.resx" />
+    <EmbeddedResource Include="NetworkDiagram\Editors\ItemEditor.resx">
+      <DependentUpon>ItemEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NetworkDiagram\Editors\MemberEditor.resx" />
+    <EmbeddedResource Include="NetworkDiagram\Editors\SimpleNodeEditor.resx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Project>{8cf10505-3c2e-4e45-ab90-21613237b412}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Translations\Translations.csproj">
+      <Project>{b3b7d798-3d52-47f0-b1a7-a91bc5fe184f}</Project>
+      <Name>Translations</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utilities\Utilities.csproj">
+      <Project>{3b6646fb-e7ca-43aa-b882-78577217708c}</Project>
+      <Name>Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Settings.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SNDefaultRelationship.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SNDefaultRelationship.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
